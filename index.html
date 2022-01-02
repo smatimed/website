@@ -27,6 +27,7 @@
 
     #me_img {
       mix-blend-mode: multiply;
+      margin-right: 20px;
     }
 
     @media (min-width: 768px) {
@@ -36,7 +37,12 @@
     }
 
     body {
-      background-color: rgba(251, 255, 0, 0.267);
+      background-color: rgba(251, 255, 0, 0.075);
+      /* background-color: rgba(251, 255, 0, 0.267); */
+    }
+
+    html {
+      font-size: 85%;
     }
   </style>
 
@@ -49,9 +55,9 @@
     <div class="container py-4">
       <header class="pb-3 mb-4 border-bottom">
         <img src="Me.png" alt="My photo" width="100" height="124" id="me_img">
-        <span class="fs-3 fw-bold">Mohamed SMATI</span><br>
-        <span class="fs-5 fw-bold">Computer science engineer since 1991</span><br>
-        <span class="fs-5 fw-bold">Deputy Director of I.T at CNAS since 2000</span>
+        <span class="fs-2 fw-bold">Mohamed SMATI</span><br>
+        <span class="fs-4 fw-bold">Computer science engineer since 1991 &nbsp;&&nbsp; MASTER since 2014</span><br>
+        <span class="fs-4 fw-bold">Deputy Director of I.T at CNAS since 2000</span>
         </a>
       </header>
 
@@ -82,7 +88,7 @@
 
       <div class="row align-items-md-stretch">
         <div class="col-md-6">
-          <div class="h-100 p-4 text-white bg-dark rounded-3">
+          <div class="h-100 fs-4 p-4 text-white bg-dark rounded-3">
             <h2>Summary</h2>
             <p>I have a long experience in IT, especially application development. Development is more than a job for
               me, it's a hobby.</p>
@@ -91,16 +97,17 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="h-100 p-4 bg-light border rounded-3">
-            <h2 class="text-danger">Skills</h2>
+          <div class="h-100 fs-4 p-4 bg-light border rounded-3">
+            <h2 class="text-danger display-6 fw-bold">Skills</h2>
             <ul>
               <li><b>Python</b>, <b>Django</b>, <b>Kivy</b></li>
               <li><b>HTML5</b>, <b>CSS3</b>, <b>Bootstrap</b></li>
               <li><b>JavaScript</b></li>
-              <li><b>Java</b></li>
               <li><b>SQL, PL/SQL</b></li>
-              <li><b>Git</b></li>
               <li><b>Oracle</b></li>
+              <li><b>Git</b></li>
+              <li><b>Java (medium)</b></li>
+              <li><b>Delphi</b></li>
             </ul>
           </div>
         </div>
@@ -113,7 +120,7 @@
           <div class="h-100 p-4 bg-light border rounded-3">
             <h2 class="text-danger">Experience</h2>
             <h4>Deputy Director of I.T - 01/2000 to Current</h4>
-            <h4>C.N.A.S, Bordj Bou Arreridj, ALGERIA</h4>
+            <h5>C.N.A.S, Bordj Bou Arreridj, ALGERIA</h5>
             <ul>
               <li>Create software solutions</li>
               <li>Ensure the deployment of IT solutions</li>
@@ -122,14 +129,14 @@
             </ul>
 
             <h4>Engineer - 09/1994 to 12/1999</h4>
-            <h4>COSPARK, Bordj Bou Arreridj, ALGERIA</h4>
+            <h5>COSPARK, Bordj Bou Arreridj, ALGERIA</h5>
             <ul>
               <li>Create software solutions</li>
               <li>Training</li>
             </ul>
 
             <h4>Engineer - 04/1992 to 08/1993</h4>
-            <h4>E.N.S.P, Hassi Messaoud – Ouargla, ALGERIA</h4>
+            <h5>E.N.S.P, Hassi Messaoud – Ouargla, ALGERIA</h5>
             <ul>
               <li>Create software solutions</li>
             </ul>
@@ -161,7 +168,8 @@
 
             <br>
             <h2 class="text-danger">Scientific publication</h2>
-            <p>Collaborator in a scientific publication whose title is "A cross layer approach for efficient multimedia
+            <p class="fs-5">Collaborator in a scientific publication whose title is "A cross layer approach for
+              efficient multimedia
               data dissemination in VANETs".</p>
           </div>
         </div>
