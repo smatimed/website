@@ -1,0 +1,52 @@
+#me_img {
+  mix-blend-mode: multiply;
+  margin-right: 20px;
+}
+
+body {
+  /* background-color: rgba(251, 255, 0, 0.075); */
+  /* background-color: rgba(251, 255, 0, 0.2); */
+  background-color: rgba(255, 174, 0, 0.3);
+}
+
+html {
+  font-size: 85%;
+}
+
+/* -------------------- */
+
+.l_ar,
+.l_fr {
+  display: none;
+}
+
+.button_lang {
+  background-color: rgb(105, 107, 106);
+  color: #fff;
+  padding: 8px 20px;
+  /* margin: 5px; */
+  border-radius: 5px;
+
+  width: auto;
+  display: inline;
+
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  -ms-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button_lang:hover,
+.current_lang {
+  background-color: rgb(15, 29, 231);
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  -ms-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.l_ar {
+  font-family: "Courgette", cursive;
+}

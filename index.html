@@ -4,34 +4,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Hugo 0.88.1">
+  <meta name="description" content="curriculum vitae (CV) of Mohamed SMATI">
+  <meta name="author" content="Mohamed SMATI">
   <title>Mohamed SMATI website</title>
 
   <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/jumbotron/"> -->
 
-
-
   <!-- Bootstrap core CSS -->
   <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <style>
-    #me_img {
-      mix-blend-mode: multiply;
-      margin-right: 20px;
-    }
+  <link rel="stylesheet" href="assets/style.css">
 
-    body {
-      background-color: rgba(251, 255, 0, 0.075);
-      /* background-color: rgba(251, 255, 0, 0.267); */
-    }
-
-    html {
-      font-size: 85%;
-    }
-  </style>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 
 </head>
 
@@ -40,21 +26,88 @@
   <main>
     <div class="container py-4">
       <header class="pb-3 mb-4 border-bottom">
-        <img src="Me.png" alt="My photo" width="100" height="124" id="me_img">
-        <span class="fs-2 fw-bold">Mohamed SMATI</span><br>
-        <span class="fs-4 fw-bold">Computer science engineer since 1991 &nbsp;&&nbsp; MASTER since 2014</span><br>
-        <span class="fs-4 fw-bold">Deputy Director of I.T at CNAS since 2000</span>
-        </a>
+        <div class="row">
+          <div class="col-9">
+            <div class="row">
+              <div class="col-3">
+                <img class="d-none d-sm-block" src="assets/Me.png" alt="My photo" width="100" height="124" id="me_img">
+                <!-- <img src="Me.png" alt="My photo" width="100" height="124" id="me_img"> -->
+              </div>
+              <div class="col mt-4">
+                <!-- En -->
+                <div class="l_en">
+                  <span class="fs-1 fw-bold">Mohamed SMATI</span><br>
+                </div>
+                <!-- Fr -->
+                <div class="l_fr">
+                  <span class="fs-1 fw-bold">Mohamed SMATI</span><br>
+                </div>
+                <!-- Ar -->
+                <div class="l_ar">
+                  <span class="fs-1 fw-bold">محمد سماتي</span><br>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <!-- En -->
+              <div class="l_en">
+                <span class="fs-4 fw-bold">Computer science <span class="fs-2">engineer</span> since 1991
+                  &nbsp;&&nbsp;<span class="fs-2">MASTER</span>
+                  since 2014</span><br>
+                <span class="fs-4 fw-bold"><span class="fs-2">Deputy Director of I.T</span> at CNAS since 2000</span>
+              </div>
+              <!-- Fr -->
+              <div class="l_fr">
+                <span class="fs-4 fw-bold"><span class="fs-2">Ingénieur</span> en informatique depuis 1991 &nbsp;&&nbsp;
+                  <span class="fs-2">MASTER</span>
+                  depuis 2014</span><br>
+                <span class="fs-4 fw-bold"><span class="fs-2">Sous-Directeur des T.I</span> à la CNAS depuis 2000</span>
+              </div>
+              <!-- Ar -->
+              <div class="l_ar">
+                <span class="fs-4 fw-bold"><span class="fs-2">مهندس</span> في الإعلام الآلي منذ عام 1991 &nbsp;و&nbsp;
+                  <span class="fs-2">ماستر</span>
+                  منذ 2014</span><br>
+                <span class="fs-4 fw-bold"><span class="fs-2">نائب مدير تكنولوجيا المعلومات</span> في كناص منذ عام
+                  2000</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <ul>
+              <li id="en_click" class="button_lang current_lang">En</li> <span>&nbsp;&nbsp;&nbsp;</span>
+              <li id="fr_click" class="button_lang">Fr</li> <span>&nbsp;&nbsp;&nbsp;</span>
+              <li id="ar_click" class="button_lang">ع</li>
+            </ul>
+          </div>
+        </div>
       </header>
 
       <div class="row align-items-md-stretch">
         <div class="col-md-8">
           <div class="p-2 mb-4 bg-light rounded-3 border">
             <div class="container-fluid py-2">
-              <h2 class="display-6 fw-bold text-danger">Contact</h2>
-              <p class="col-md-12 fs-4"><b>Address:</b> CITE 16 LOGTS CNAS BLOC A N 5, BORDJ BOU ARRERIDJ, Algeria</p>
-              <p class="col-md-8 fs-4"><b>Phone:</b> +213 (0)663739573</p>
-              <p class="col-md-8 fs-4"><b>Email:</b> mohamed.smati@yahoo.com</p>
+              <!-- En -->
+              <div class="l_en">
+                <h2 class="display-6 fw-bold text-danger">Contact</h2>
+                <p class="col-md-12 fs-4"><b>Address:</b> CITE 16 LOGTS CNAS BLOC A N 5, BORDJ BOU ARRERIDJ, Algeria</p>
+                <p class="col-md-8 fs-4"><b>Phone:</b> +213 (0)663739573</p>
+                <p class="col-md-8 fs-4"><b>Email:</b> mohamed.smati@yahoo.com</p>
+              </div>
+              <!-- Fr -->
+              <div class="l_fr">
+                <h2 class="display-6 fw-bold text-danger">Contact</h2>
+                <p class="col-md-12 fs-4"><b>Adresse:</b> CITE 16 LOGTS CNAS BLOC A N 5, BORDJ BOU ARRERIDJ, Algérie</p>
+                <p class="col-md-8 fs-4"><b>Téléphone:</b> +213 (0)663739573</p>
+                <p class="col-md-8 fs-4"><b>Courriel:</b> mohamed.smati@yahoo.com</p>
+              </div>
+              <!-- Ar -->
+              <div class="l_ar" dir="rtl">
+                <h2 class="display-6 fw-bold text-danger">إتصال</h2>
+                <p class="col-md-12 fs-4"><b>عنوان:</b> حي 16 مسكن كناص عمارة أ رقم 5، برج بو عريريج ، الجزائر</p>
+                <p class="col-md-8 fs-4"><b>هاتف:</b> +213 (0)663739573</p>
+                <p class="col-md-8 fs-4"><b>بريد الالكتروني:</b> mohamed.smati@yahoo.com</p>
+              </div>
             </div>
           </div>
         </div>
@@ -62,10 +115,27 @@
         <div class="col-md-4">
           <div class="p-2 mb-4 bg-light rounded-3 border">
             <div class="container-fluid py-2">
-              <h2 class="display-6 fw-bold text-danger">Languages</h2>
-              <p class="fs-4"><b>English:</b> Good</p>
-              <p class="fs-4"><b>French:</b> Fluent</p>
-              <p class="fs-4"><b>Arabic:</b> Native tongue</p>
+              <!-- En -->
+              <div class="l_en">
+                <h2 class="display-6 fw-bold text-danger">Languages</h2>
+                <p class="fs-4"><b>English:</b> Good</p>
+                <p class="fs-4"><b>French:</b> Fluent</p>
+                <p class="fs-4"><b>Arabic:</b> Native tongue</p>
+              </div>
+              <!-- Fr -->
+              <div class="l_fr">
+                <h2 class="display-6 fw-bold text-danger">Langues</h2>
+                <p class="fs-4"><b>Anglais:</b> Bien</p>
+                <p class="fs-4"><b>Français:</b> Couramment</p>
+                <p class="fs-4"><b>Arabe:</b> Langue natale</p>
+              </div>
+              <!-- Ar -->
+              <div class="l_ar" dir="rtl">
+                <h2 class="display-6 fw-bold text-danger">اللغات</h2>
+                <p class="fs-4"><b>إنجليزي:</b> حسن</p>
+                <p class="fs-4"><b>فرنسي:</b> بطلاقة</p>
+                <p class="fs-4"><b>عربي:</b> اللغة الأم</p>
+              </div>
             </div>
           </div>
         </div>
@@ -75,18 +145,54 @@
       <div class="row align-items-md-stretch">
         <div class="col-md-6">
           <div class="h-100 fs-4 p-4 text-white bg-dark rounded-3">
-            <h2>Summary</h2>
-            <p class="fs-4">I have a long experience in IT, especially application development. Development is more than
-              a job for
-              me, it's a hobby.</p>
-            <p class="fs-4">I am very serious, intelligent, I learn quickly and I integrate easily in a group. I am
-              meticulous and a
-              perfectionist; my motto is "if you have to do something, do it professionally".</p>
+            <!-- En -->
+            <div class="l_en">
+              <h2>Summary</h2>
+              <p class="fs-4">I have a long experience in IT, especially application development. Development is more
+                than
+                a job for
+                me, it's a hobby.</p>
+              <p class="fs-4">I am very serious, intelligent, I learn quickly and I integrate easily in a group. I am
+                meticulous and a
+                perfectionist; my motto is "if you have to do something, do it professionally".</p>
+            </div>
+            <!-- Fr -->
+            <div class="l_fr">
+              <h2>Résumé</h2>
+              <p class="fs-4">J’ai une longue expérience en informatique, notamment en développement d’applications. Le
+                développement est
+                plus qu’un travail pour moi, c’est un plaisir.</p>
+              <p class="fs-4">Je suis sérieux, intelligent et méticuleux ; j’apprends vite et m’intègre facilement dans
+                un groupe. Je suis méticuleux et perfectioniste; ma devise est "Si on doit faire une chose, c'est en
+                professionnel
+                qu'il faut la faire".</p>
+            </div>
+            <!-- Ar -->
+            <div class="l_ar" dir="rtl">
+              <h1>ملخص</h1>
+              <p class="fs-3">لدي خبرة طويلة في مجال تكنولوجيا المعلومات ، وخاصة في تطوير التطبيقات. تطوير التطبيقات هو
+                أكثر من مجرد وظيفة بالنسبة لي،
+                إنه هواية.</p>
+              <p class="fs-3">انا جاد وذكي ودقيق؛ أتعلم بسرعة وأتوافق بسهولة في مجموعة. أنا دقيق ومنشد الكمال. شعاري هو
+                "إذا كان عليك القيام بشيء ما ،
+                فعليك القيام به بشكل احترافي".</p>
+            </div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="h-100 fs-4 p-4 bg-light border rounded-3">
-            <h2 class="text-danger display-6 fw-bold">Skills</h2>
+            <!-- En -->
+            <div class="l_en">
+              <h2 class="text-danger display-6 fw-bold">Skills</h2>
+            </div>
+            <!-- Fr -->
+            <div class="l_fr">
+              <h2 class="text-danger display-6 fw-bold">Compétences</h2>
+            </div>
+            <!-- Ar -->
+            <div class="l_ar" dir="rtl">
+              <h2 class="text-danger display-6 fw-bold">مهارات</h2>
+            </div>
             <ul>
               <li><b>Python</b>, <b>Django</b>, <b>Kivy</b></li>
               <li><b>HTML5</b>, <b>CSS3</b>, <b>Bootstrap</b></li>
@@ -94,7 +200,18 @@
               <li><b>SQL, PL/SQL</b></li>
               <li><b>Oracle</b></li>
               <li><b>Git</b></li>
-              <li><b>Java (medium)</b></li>
+              <!-- En -->
+              <div class="l_en">
+                <li><b>Java (medium)</b></li>
+              </div>
+              <!-- Fr -->
+              <div class="l_fr">
+                <li><b>Java (moyen)</b></li>
+              </div>
+              <!-- Ar -->
+              <div class="l_ar">
+                <li><b>Java (متوسط)</b></li>
+              </div>
               <li><b>Delphi</b></li>
             </ul>
           </div>
@@ -106,59 +223,149 @@
       <div class="row align-items-md-stretch">
         <div class="col-md-6">
           <div class="h-100 p-4 bg-light border rounded-3">
-            <h2 class="text-danger">Experience</h2>
-            <h4>Deputy Director of I.T - 01/2000 to Current</h4>
-            <h5>C.N.A.S, Bordj Bou Arreridj, ALGERIA</h5>
-            <ul>
-              <li>Create software solutions</li>
-              <li>Ensure the deployment of IT solutions</li>
-              <li>Guarantee the availability of network infrastructures</li>
-              <li>Manage and orient technical staff.</li>
-            </ul>
+            <!-- En -->
+            <div class="l_en">
+              <h2 class="display-6 fw-bold text-danger">Experience</h2>
+              <h4>Deputy Director of I.T - 01/2000 to Current</h4>
+              <h5>C.N.A.S, Bordj Bou Arreridj, ALGERIA</h5>
+              <ul>
+                <li>Create software solutions</li>
+                <li>Ensure the deployment of IT solutions</li>
+                <li>Guarantee the availability of network infrastructures</li>
+                <li>Manage and orient technical staff.</li>
+              </ul>
 
-            <h4>Engineer - 09/1994 to 12/1999</h4>
-            <h5>COSPARK, Bordj Bou Arreridj, ALGERIA</h5>
-            <ul>
-              <li>Create software solutions</li>
-              <li>Training</li>
-            </ul>
+              <h4>Engineer - 09/1994 to 12/1999</h4>
+              <h5>COSPARK, Bordj Bou Arreridj, ALGERIA</h5>
+              <ul>
+                <li>Create software solutions</li>
+                <li>Training</li>
+              </ul>
 
-            <h4>Engineer - 04/1992 to 08/1993</h4>
-            <h5>E.N.S.P, Hassi Messaoud – Ouargla, ALGERIA</h5>
-            <ul>
-              <li>Create software solutions</li>
-            </ul>
+              <h4>Engineer - 04/1992 to 08/1993</h4>
+              <h5>E.N.S.P, Hassi Messaoud – Ouargla, ALGERIA</h5>
+              <ul>
+                <li>Create software solutions</li>
+              </ul>
+            </div>
+            <!-- Fr -->
+            <div class="l_fr">
+              <h2 class="display-6 fw-bold text-danger">Expérience</h2>
+              <h4>Sous-Director de l'informatique - 01/2000 à ce jour</h4>
+              <h5>C.N.A.S, Bordj Bou Arréridj, ALGERIE</h5>
+              <ul>
+                <li>Créer des solutions logicielles</li>
+                <li>Assurer le déploiement des solutions informatiques</li>
+                <li>Garantir la disponibilité des infrastructures réseaux</li>
+                <li>Gérer et orienter le personnel technique.</li>
+              </ul>
 
+              <h4>Ingénieur - 09/1994 à 12/1999</h4>
+              <h5>COSPARK, Bordj Bou Arréridj, ALGERIE</h5>
+              <ul>
+                <li>Créer des solutions logicielles</li>
+                <li>Formation</li>
+              </ul>
 
+              <h4>Ingénieur - 04/1992 à 08/1993</h4>
+              <h5>E.N.S.P, Hassi Messaoud – Ouargla, ALGERIE</h5>
+              <ul>
+                <li>Créer des solutions logicielles</li>
+              </ul>
+            </div>
+            <!-- Ar -->
+            <div class="l_ar" dir="rtl">
+              <h2 class="display-6 fw-bold text-danger">خبرة</h2>
+              <h3>مدير فرعي تكنولوجيا المعلومات - 01/2000 حتى الآن</h3>
+              <h4>ص.و.ت.إ ، برج بوعريريج ، الجزائر</h4>
+              <ul>
+                <li>إنشاء حلول برمجية</li>
+                <li>ضمان نشر حلول تكنولوجيا المعلومات</li>
+                <li>ضمان توافر البنية التحتية للشبكة</li>
+                <li>إدارة وتوجيه الموظفين الفنيين.</li>
+              </ul>
+
+              <h3>مهندس - 09/1994 الى 12/1999
+              </h3>
+              <h4>كوسبارك ، برج بوعريريج ، الجزائر</h4>
+              <ul>
+                <li>إنشاء حلول برمجية</li>
+                <li>تكوين</li>
+              </ul>
+
+              <h3>مهندس - 04/1992 إلى 08/1993
+              </h3>
+              <h4>ش.و.خ.أ، حاسي مسعود - ورقلة، الجزائر</h4>
+              <ul>
+                <li>إنشاء حلول برمجية</li>
+              </ul>
+            </div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="h-100 p-4 bg-light border rounded-3">
-            <h2 class="text-danger">Education</h2>
-            <ul>
-              <li>
-                <h4>MASTER, NETWORK & MULTIMEDIA – 2014</h4>
-              </li>
-              <span>BACHIR ELIBRAHIMI University, Bordj Bou Arreridj</span><br>
-              <span>Thesis: “VANETS: ROUTING PROTOCOLS AND APPLICATIONS”</span><br>
+            <!-- En -->
+            <div class="l_en">
+              <h2 class="display-6 fw-bold text-danger">Education</h2>
+              <h4>MASTER, NETWORK & MULTIMEDIA – 2014</h4>
+              <h6>BACHIR ELIBRAHIMI University, Bordj Bou Arreridj</h6>
+              <h6>Thesis: “VANETS: ROUTING PROTOCOLS AND APPLICATIONS”</h6><br>
 
-              <li>
-                <h4>ENGINEER, HARDWARE & SOFTWARE – 1991</h4>
-              </li>
-              <span>MENTOURI University, Constantine</span><br>
+              <h4>ENGINEER, HARDWARE & SOFTWARE – 1991</h4>
+              <h6>MENTOURI University, Constantine</h6><br>
 
-              <li>
-                <h4>Diploma in Advanced Studies (DEA), ENGLISH – 2007</h4>
-              </li>
-              <span>UFC Alannasser, Bordj Bou Arreridj</span><br>
+              <h4>Diploma in Advanced Studies (DEA), ENGLISH – 2007</h4>
+              <h6>UFC Alannasser, Bordj Bou Arreridj</h6><br>
+            </div>
+            <!-- Fr -->
+            <div class="l_fr">
+              <h2 class="display-6 fw-bold text-danger">Formation</h2>
+              <h4>MASTER, RESEAU ET MULTIMEDIA – 2014</h4>
+              <h6>Université BACHIR ELIBRAHIMI, Bordj Bou Arréridj</h6>
+              <h6>Thèse: “VANETS: ROUTING PROTOCOLS AND APPLICATIONS”</h6><br>
 
-            </ul>
+              <h4>INGENIORAT, MATERIEL & LOGICIEL – 1991</h4>
+              <h6>Université MENTOURI, Constantine</h6><br>
+
+              <h4>Diplome des Etdues Avancées (DEA), ANGLAIS – 2007</h4>
+              <h6>UFC Alannasser, Bordj Bou Arréridj</h6><br>
+            </div>
+            <!-- Ar -->
+            <div class="l_ar" dir="rtl">
+              <h2 class="display-6 fw-bold text-danger">تكوين</h2>
+              <h3>ماستر ، شبكة ووسائط متعددة - 2014</h3>
+              <h5>جامعة البشير الإبراهيمي برج بوعريريج</h5>
+              <h5>الأطروحة: "VANETS: ROUTING PROTOCOLS AND APPLICATIONS"</h5><br>
+
+              <h3>مهندس ، الأجهزة والبرامج - 1991</h3>
+              <h5>جامعة منتوري ، قسنطينة</h5><br>
+
+              <h3>دبلوم الدراسات المتقدمة (DEA) ، اللغة الإنجليزية - 2007</h3>
+              <h5>الجامعة الليلية العناصر ، برج بوعريريج</h5><br>
+            </div>
+
 
             <br>
-            <h2 class="text-danger">Scientific publication</h2>
-            <p class="fs-5">Collaborator in a scientific publication whose title is "A cross layer approach for
-              efficient multimedia
-              data dissemination in VANETs".</p>
+            <!-- En -->
+            <div class="l_en">
+              <h2 class="text-danger">Scientific publication</h2>
+              <p class="fs-5">Collaborator in a scientific publication whose title is "A cross layer approach for
+                efficient multimedia
+                data dissemination in VANETs".</p>
+            </div>
+            <!-- Fr -->
+            <div class="l_fr">
+              <h2 class="text-danger">Publication scientifique</h2>
+              <p class="fs-5">Collaborateur dans une publication scientifique dont le titre est “A cross layer approach
+                for efficient multimedia data
+                dissemination in VANETs”.</p>
+            </div>
+            <!-- Ar -->
+            <div class="l_ar" dir="rtl">
+              <h2 class="text-danger">النشر العلمي</h2>
+              <p class="fs-5">مساهم في منشور علمي بعنوان "A cross layer approach for efficient multimedia data
+                dissemination in VANETs".</p>
+            </div>
           </div>
         </div>
       </div>
@@ -166,11 +373,75 @@
 
       <footer class="pt-3 mt-4 text-muted border-top">
         &copy; 2021
+        <a style="float:right" href="#top"><img src="assets/navigation_black_24dp.svg" alt="">
+        </a>
       </footer>
     </div>
   </main>
 
+  <script>
+    var french = document.getElementById('fr_click'),
+      english = document.getElementById('en_click'),
+      arabic = document.getElementById('ar_click'),
+      fr_txt = document.querySelectorAll('.l_fr'),
+      en_txt = document.querySelectorAll('.l_en'),
+      ar_txt = document.querySelectorAll('.l_ar'),
+      nb_fr = fr_txt.length,
+      nb_en = en_txt.length,
+      nb_ar = ar_txt.length;
 
+    french.addEventListener('click', function () {
+      langue(french, english, arabic);
+    }, false);
+
+    english.addEventListener('click', function () {
+      langue(english, french, arabic);
+    }, false);
+
+    arabic.addEventListener('click', function () {
+      langue(arabic, english, french);
+    }, false);
+
+    function langue(langueOn, langueOff, langue2Off) {
+      if (!langueOn.classList.contains('current_lang')) {
+        langueOn.classList.add('current_lang');
+        langueOff.classList.remove('current_lang');
+        langue2Off.classList.remove('current_lang');
+      }
+      if (langueOn.innerHTML == 'Fr') {
+        afficher(fr_txt, nb_fr);
+        cacher(en_txt, nb_en);
+        cacher(ar_txt, nb_ar);
+      }
+      else if (langueOn.innerHTML == 'En') {
+        afficher(en_txt, nb_en);
+        cacher(fr_txt, nb_fr);
+        cacher(ar_txt, nb_ar);
+      }
+      else if (langueOn.innerHTML == 'ع') {
+        afficher(ar_txt, nb_ar);
+        cacher(fr_txt, nb_fr);
+        cacher(en_txt, nb_en);
+      }
+    }
+
+    function afficher(txt, nb) {
+      for (var i = 0; i < nb; i++) {
+        txt[i].style.display = 'block';
+      }
+    }
+    function cacher(txt, nb) {
+      for (var i = 0; i < nb; i++) {
+        txt[i].style.display = 'none';
+      }
+    }
+    function init() {
+      langue(english, french, arabic);
+    }
+    init();        
+  </script>
+
+  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
