@@ -383,9 +383,44 @@
 
 
       <footer class="pt-3 mt-4 text-muted border-top">
-        &copy; 2021
-        <a style="float:right" href="#top"><img src="assets/navigation_black_24dp.svg" alt="">
-        </a>
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              &copy; 2021
+            </div>
+            <div class="col-4 text-center">
+              <!-- En -->
+              <span class="l_in_en">Visitor n° </span>
+              <!-- Fr -->
+              <span class="l_in_fr">Visiteur n° </span>
+              <!-- Default Statcounter code for Smatimed sur GitHub
+  https://smatimed.github.io/website -->
+              <script type="text/javascript">
+                var sc_project = 11060249;
+                var sc_invisible = 0;
+                var sc_security = "e34a2ea7";
+                var scJsHost = "https://";
+                document.write("<sc" + "ript type='text/javascript' src='" +
+                  scJsHost +
+                  "statcounter.com/counter/counter.js'></" + "script>");
+              </script>
+              <noscript>
+                <div class="statcounter"><a title="Web Analytics
+  Made Easy - Statcounter" href="https://statcounter.com/" target="_blank"><img class="statcounter"
+                      src="https://c.statcounter.com/11060249/0/e34a2ea7/0/" alt="Web Analytics Made Easy - Statcounter"
+                      referrerPolicy="no-referrer-when-downgrade"></a></div>
+              </noscript>
+              <!-- End of Statcounter Code -->
+              <!-- Ar -->
+              <span class="l_in_ar" dir="rtl">زائر رقم</span>
+
+            </div>
+            <div class="col-4">
+              <a style="float:right" href="#top"><img src="assets/navigation_black_24dp.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
       </footer>
     </div>
   </main>
@@ -399,7 +434,13 @@
       ar_txt = document.querySelectorAll('.l_ar'),
       nb_fr = fr_txt.length,
       nb_en = en_txt.length,
-      nb_ar = ar_txt.length;
+      nb_ar = ar_txt.length,
+      fr_in_txt = document.querySelectorAll('.l_in_fr'),
+      en_in_txt = document.querySelectorAll('.l_in_en'),
+      ar_in_txt = document.querySelectorAll('.l_in_ar'),
+      nb_in_fr = fr_in_txt.length,
+      nb_in_en = en_in_txt.length,
+      nb_in_ar = ar_in_txt.length;
 
     french.addEventListener('click', function () {
       langue(french, english, arabic);
@@ -421,24 +462,38 @@
       }
       if (langueOn.innerHTML == 'Fr') {
         afficher(fr_txt, nb_fr);
+        afficher_in(fr_in_txt, nb_in_fr);
         cacher(en_txt, nb_en);
+        cacher(en_in_txt, nb_in_en);
         cacher(ar_txt, nb_ar);
+        cacher(ar_in_txt, nb_in_ar);
       }
       else if (langueOn.innerHTML == 'En') {
         afficher(en_txt, nb_en);
+        afficher_in(en_in_txt, nb_in_en);
         cacher(fr_txt, nb_fr);
+        cacher(fr_in_txt, nb_in_fr);
         cacher(ar_txt, nb_ar);
+        cacher(ar_in_txt, nb_in_ar);
       }
       else if (langueOn.innerHTML == 'ع') {
         afficher(ar_txt, nb_ar);
+        afficher_in(ar_in_txt, nb_in_ar);
         cacher(fr_txt, nb_fr);
+        cacher(fr_in_txt, nb_in_fr);
         cacher(en_txt, nb_en);
+        cacher(en_in_txt, nb_in_en);
       }
     }
 
     function afficher(txt, nb) {
       for (var i = 0; i < nb; i++) {
         txt[i].style.display = 'block';
+      }
+    }
+    function afficher_in(txt, nb) {
+      for (var i = 0; i < nb; i++) {
+        txt[i].style.display = 'inline';
       }
     }
     function cacher(txt, nb) {
@@ -455,24 +510,6 @@
   <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 
 
-  <!-- Default Statcounter code for Smatimed sur GitHub
-https://smatimed.github.io/website -->
-  <script type="text/javascript">
-    var sc_project = 11060249;
-    var sc_invisible = 0;
-    var sc_security = "e34a2ea7";
-    var scJsHost = "https://";
-    document.write("<sc" + "ript type='text/javascript' src='" +
-      scJsHost +
-      "statcounter.com/counter/counter.js'></" + "script>");
-  </script>
-  <noscript>
-    <div class="statcounter"><a title="Web Analytics
-Made Easy - Statcounter" href="https://statcounter.com/" target="_blank"><img class="statcounter"
-          src="https://c.statcounter.com/11060249/0/e34a2ea7/0/" alt="Web Analytics Made Easy - Statcounter"
-          referrerPolicy="no-referrer-when-downgrade"></a></div>
-  </noscript>
-  <!-- End of Statcounter Code -->
 </body>
 
 </html>
