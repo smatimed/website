@@ -19,9 +19,28 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 
+  <style>
+    #theGoTopBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 25px;
+      padding: 3px;
+      border-radius: 4px;
+      z-index: 999;
+      cursor: pointer;
+    }
+  </style>
+
 </head>
 
 <body>
+
+  <a href="#" class="btn-primary" id="theGoTopBtn"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+      fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+      <path
+        d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+    </svg></a>
 
   <main>
     <div class="container py-4">
@@ -430,10 +449,9 @@
               <span class="l_in_ar" dir="rtl">زائر رقم</span>
 
             </div>
-            <div class="col-4">
+            <!-- <div class="col-4">
               <a style="float:right" href="#top"><img src="assets/navigation_black_24dp.svg" alt="">
-              </a>
-            </div>
+            </div> -->
           </div>
         </div>
       </footer>
@@ -441,6 +459,22 @@
   </main>
 
   <script>
+    //Get the GoTop button
+    var theGoTopButton = document.getElementById("theGoTopBtn");
+
+    // When the user scrolls down 100px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        theGoTopButton.style.display = "block";
+      } else {
+        theGoTopButton.style.display = "none";
+      }
+    }
+
+
+    // switching between languages
     var french = document.getElementById('fr_click'),
       english = document.getElementById('en_click'),
       arabic = document.getElementById('ar_click'),
