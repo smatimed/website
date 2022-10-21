@@ -87,6 +87,13 @@ body {
 .ombre-cadre {
   box-shadow: 4px 4px silver;
 }
+
+.ombre-text {
+    text-shadow: 1.5px 1.5px silver; !important
+}
+.ombre-text-dark {
+    text-shadow: 1.5px 1.5px gray; !important
+}
 /* buttons animation */
 /* .anim:hover {
   animation: lang_button 3s infinite;
