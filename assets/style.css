@@ -1,22 +1,22 @@
+html {
+  font-size: 85%;
+}
+
 #me_img {
   mix-blend-mode: multiply;
   margin-right: 20px;
-}
+}  
 
 body {
   /* background-color: rgba(251, 255, 0, 0.075); */
   /* background-color: rgba(251, 255, 0, 0.2); */
   background-color: rgba(255, 174, 0, 0.2);
-}
-
-html {
-  font-size: 85%;
-}
+}  
 
 /* -------------------- */
 
 .l_ar,
-.l_fr {
+.l_fr, .l_de {
   display: none;
 }
 
@@ -84,6 +84,9 @@ html {
   -webkit-transform: translateY(2px);
 }
 
+.ombre-cadre {
+  box-shadow: 4px 4px silver;
+}
 /* buttons animation */
 /* .anim:hover {
   animation: lang_button 3s infinite;
