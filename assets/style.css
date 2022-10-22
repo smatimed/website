@@ -6,6 +6,9 @@ html {
 #me_img {
   /* mix-blend-mode: multiply; */
   margin-right: 20px;
+  /* position: fixed; */
+  z-index: 900;
+  /* padding-bottom: 10px; */
 }  
 
 #me_img:hover {
