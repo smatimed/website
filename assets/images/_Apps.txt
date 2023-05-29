@@ -1,0 +1,35 @@
+my website:
+
+Here are some new and old projects that I have realized showing the mastery of the technologies used.
+
+
+
+1- STOCK MANAGEMENT
+GESTION DE STOCK
+
+Python, Django
+HTML, CSS, JavaScript
+PostgreSQL DB
+
+Allows to manage the stock: stock-in, stock-out, stock status by lot or by article.
+Multi-lot stock management.
+Uses barcodes.
+Multi-languages.
+
+Permet de gérer le stock: entrées, sorties, état du stock par lot ou par article.
+Gestion du stock mutli-lots.
+Utilise les codes à barres.
+Multi-langues.
+
+
+2- MONITORING OF STAFF MOVEMENTS
+SUIVI DES MOUVEMENTS DU PERSONNEL
+
+Python, Django
+HTML, CSS, JavaScript
+REST-API, XHR / Fetch
+MariaDB DB
+
+Allows the monitoring of staff movements: Annual leave, special leave, leave vouchers, sick leave, recoveries.
+
+Permet le suivi des mouvements du personnel: Congés annuels, congés spéciaux, bons de sortie,  congé de maladie, récupérations.
