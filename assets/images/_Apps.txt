@@ -1,4 +1,4 @@
-my website:
+﻿my website:
 
 Here are some new and old projects that I have realized showing the mastery of the technologies used.
 
@@ -33,3 +33,37 @@ MariaDB DB
 Allows the monitoring of staff movements: Annual leave, special leave, leave vouchers, sick leave, recoveries.
 
 Permet le suivi des mouvements du personnel: Congés annuels, congés spéciaux, bons de sortie,  congé de maladie, récupérations.
+
+
+3- MISSION MANAGEMENT
+GESTION DES MISSIONS
+
+Allows the management of work missions: edition of mission orders, calculation of mission expenses (after the end of mission), statistics.
+
+permet la gestion des missions de travail: edition des ordres de mission, calcul des frais de missions (après la fin de mission), statistiques.
+
+Delphi (Oriented Object Pascal)
+DBF Database
+
+
+4- CONNECTION MONITORING
+SURVEILLANCE DES CONNEXIONS
+
+Enables automatic monitoring (according to a frequency set by the user) of network connections (between a central structure with its distributed structures) with a view to detecting failures in order to intervene quickly. In addition, it allows to measure response times.
+It also allows to monitor the availability of databases.
+
+Permet de surveiller automatiquement (selon une fréquence fixée par l'utilisateur) les connexions réseau (entre une structure centrale avec ses structures réparties) en vue de détecter les pannes pour intervenir rapidement. En plus, elle permet de mesurer les temps de réponse.
+Elle permet, aussi, de surveiller la disponibilité des bases de données.
+
+Delphi (Oriented Object Pascal)
+
+
+5- MESSAGING
+MESSAGERIE 
+
+Allows to send and receive messages in a local network in a simple way.
+
+Permet d'envoyer et recevoir des messages dans un réseau local d'une manière simple.
+
+Delphi (Oriented Object Pascal)
+Windows socket
