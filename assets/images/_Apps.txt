@@ -58,7 +58,20 @@ Elle permet, aussi, de surveiller la disponibilité des bases de données.
 Delphi (Oriented Object Pascal)
 
 
-5- MESSAGING
+5- DBF READER
+LECTEUR DBF 
+
+Allows to read and modify DBF files in a simple way.
+Multi-documents.
+
+Permet de lire et modifier les fichiers DBF d'une manière simple.
+Multi-documents.
+
+Delphi (Oriented Object Pascal)
+DBF Database
+
+
+6- MESSAGING
 MESSAGERIE 
 
 Allows to send and receive messages in a local network in a simple way.
