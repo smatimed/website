@@ -22,6 +22,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 
+  <style>
+    img_portfolio:hover {
+      transform: scale(2);
+      transition: all .2s linear;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -188,7 +195,7 @@
               </ul>
             </div>
             <a href="portfolio.html">
-              <img class="m-3" src="assets/portfolio.png" alt="portfolio" width="100">
+              <img id="portfolio_img" class="m-3" src="assets/folder-maroon.png" alt="portfolio" width="100" onmouseover="img_hover(this)" onmouseout="img_unhover(this)">
             </a>
             <p class="ms-4 fs-5 fw-bold ombre-text">Portfolio</p>
             <!-- <a href="portfolio.html" class="ms-3">Portfolio</a> -->
@@ -856,6 +863,14 @@
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
       return new bootstrap.Tooltip(tooltipTriggerEl)
     })
+
+    function img_hover(element) {
+      element.setAttribute('src', "assets/folder-open-maroon.png");
+    }
+
+    function img_unhover(element) {
+      element.setAttribute('src', "assets/folder-maroon.png");
+    }
   </script>
 
 </body>
