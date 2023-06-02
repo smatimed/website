@@ -17,6 +17,11 @@
   <!-- Bootstrap core CSS -->
   <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
+  <link href="assets/icons/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/style.css">
+
+
   <style>
     body {
       background-color: lightgoldenrodyellow;
@@ -44,11 +49,32 @@
 
   <main>
 
-    <section class="py-5 text-center container">
+    <!-- *Navigateur* start -->
+    <div class="col-12 py-2">
+      <a href="index.html" style="float: right;" class="btn btn-outline-dark btn-rounded mx-2" role="button">
+        <span class="bi bi-house-fill" style="font-size: large"></span>
+        <p class="m-0 p-0">Home</p>
+      </a>
+      <a href="index.html" style="float: right;" class="btn btn-outline-dark btn-rounded mx-2" role="button">
+        <span class="bi bi-arrow-90deg-up" style="font-size: large"></span>
+        <p class="m-0 p-0">Source</p>
+      </a>
+      <button onclick="history.back()" class="btn btn-outline-dark btn-rounded mx-2" style="float: right;">
+        <span class="bi bi-arrow-left" style="font-size: large"></span>
+        <p class="m-0 p-0">Back</p>
+      </button>
+      <a href="#" class="btn-dark" id="theGoTopBtn" style="display: none;">
+        <span class="bi bi-arrow-up-circle-fill" style="font-size: large"></span>
+      </a>
+    </div>
+    <!-- *Navigateur* end -->
+
+
+    <section class="py-0 text-center container">
       <div class="row py-lg-5">
         <div class="col-lg-7 col-md-8 mx-auto">
-          <h1 class="fw-light ombre-text">Mohamed SMATI Portfolio</h1>
-          <p class="lead text-muted">Here are some new and old projects (for illustration purposes) that I have realized
+          <h1 class="fs-1 fw-bold ombre-text">Mohamed SMATI Portfolio</h1>
+          <p class="fs-5 text-muted">Here are some new and old projects (for illustration purposes) that I have realized
             showing the mastery of the technologies used.</p>
         </div>
       </div>
@@ -253,89 +279,16 @@
             </div>
           </div>
 
-
-
-
-          <!-- <div class="col">
-            <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                   role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
-                   focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                      dy=".3em">Thumbnail - 7</text>
-              </svg>
-
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                   role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
-                   focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                      dy=".3em">Thumbnail - 8</text>
-              </svg>
-
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                   role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
-                   focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                      dy=".3em">Thumbnail - 9</text>
-              </svg>
-
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
         </div>
       </div>
     </div>
 
   </main>
 
-  <footer class="text-muted py-5">
+  <footer class="text-muted py-3">
     <div class="container">
       <p class="float-end mb-1">
-        <a href="#">Back to top</a>
+        <!-- <a href="#">Back to top</a> -->
       </p>
     </div>
   </footer>
@@ -343,6 +296,7 @@
 
   <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 
+  <script src="assets/gotopbutton.js"></script>
 
 </body>
 

@@ -18,6 +18,10 @@
   <!-- Bootstrap core CSS -->
   <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
+  <link href="assets/icons/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/style.css">
+
   <style>
     body {
       background-color: lightblue;
@@ -61,313 +65,310 @@
 
   <main>
 
-    <section class="pt-5 text-center container">
+    <!-- *Navigateur* start -->
+    <div class="col-12 py-2">
+      <a href="index.html" style="float: right;" class="btn btn-outline-dark btn-rounded mx-2" role="button">
+        <span class="bi bi-house-fill" style="font-size: large"></span>
+        <p class="m-0 p-0">Home</p>
+      </a>
+      <a href="portfolio.html" style="float: right;" class="btn btn-outline-dark btn-rounded mx-2" role="button">
+        <span class="bi bi-arrow-90deg-up" style="font-size: large"></span>
+        <p class="m-0 p-0">Source</p>
+      </a>
+      <button onclick="history.back()" class="btn btn-outline-dark btn-rounded mx-2" style="float: right;">
+        <span class="bi bi-arrow-left" style="font-size: large"></span>
+        <p class="m-0 p-0">Back</p>
+      </button>
+      <a href="#" class="btn-dark" id="theGoTopBtn" style="display: none;">
+        <span class="bi bi-arrow-up-circle-fill" style="font-size: large"></span>
+      </a>
+    </div>
+    <!-- *Navigateur* end -->
+
+
+    <section class="pt-0 text-center container">
       <div class="row py-lg-5">
         <div class="col-lg-6 col-md-8 mx-auto">
           <h1 class="fw-light fw-bold text-primary">INVENTORY MANAGEMENT</h1>
-
         </div>
       </div>
     </section>
 
     <div class="container">
-      <ul>
-        <li class="lead">Allows to manage the stock: stock-in, stock-out, stock status by lot or by article.</li>
-        <li class="lead">Multi-lot inventory management.</li>
-        <li class="lead">Uses barcodes.</li>
-        <li class="lead pb-3">Multi-languages.</li>
-      </ul>
+
+      <!-- <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"> -->
+      <div class="row pb-3">
+        <div class="col-8">
+          <ul class="py-0 my-0">
+            <li class="fs-5">Allows to manage the stock: stock-in, stock-out, stock status by lot or by article.</li>
+            <li class="fs-5">Multi-lot inventory management.</li>
+            <li class="fs-5">Uses barcodes.</li>
+            <li class="fs-5 pb-3">Multi-languages.</li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <P class="fs-5 mb-0">Technologies used:</P>
+          <ul>
+            <li class="fs-5 fw-bold">Python, Django</li>
+            <li class="fs-5 fw-bold">HTML, CSS, JavaScript</li>
+            <li class="fs-5 fw-bold">PostgreSQL Database</li>
+          </ul>
+        </div>
+      </div>
+
     </div>
 
-    <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="assets/gstock_01_fr.png" alt="" srcset="">
-          </div>
-          <div class="col">
-            <p class="card-text">Multi-languages: FRENCH</p>
-          </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="assets/gstock_01_fr.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Multi-languages: FRENCH</p>
         </div>
       </div>
     </div>
 
     <p></p>
 
-    <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="assets/gstock_01_ar.png" alt="" srcset="">
-          </div>
-          <div class="col">
-            <p class="card-text">Multi-languages: ARABIC</p>
-          </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="assets/gstock_01_ar.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Multi-languages: ARABIC</p>
         </div>
       </div>
     </div>
 
     <p></p>
 
-    <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="assets/gstock_02_DB.png" alt="" srcset="">
-          </div>
-          <div class="col">
-            <p class="card-text">Database: PostgreSQL</p>
-          </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="assets/gstock_02_DB.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Database: PostgreSQL</p>
         </div>
       </div>
     </div>
 
     <p></p>
 
-    <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="assets/gstock_03.png" alt="" srcset="">
-          </div>
-          <div class="col">
-            <p class="card-text">Stock-in list</p>
-          </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="assets/gstock_03.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Stock-in list</p>
         </div>
       </div>
     </div>
 
     <p></p>
 
-    <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="assets/gstock_04.png" alt="" srcset="">
-          </div>
-          <div class="col">
-            <p class="card-text">Add a new stock-in</p>
-          </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="assets/gstock_04.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Add a new stock-in</p>
         </div>
       </div>
     </div>
 
     <p></p>
 
-    <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <img class="bd-placeholder-img card-img-top" src="assets/gstock_05.png" alt="" srcset="">
-          </div>
-          <div class="col">
-            <p class="card-text">Modify an existing stock-in</p>
-          </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/gstock_05.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Modify an existing stock-in</p>
         </div>
       </div>
     </div>
 
     <p></p>
 
-    <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <img class="bd-placeholder-img card-img-top" src="assets/gstock_06.png" alt="" srcset="">
-          </div>
-          <div class="col">
-            <p class="card-text">Stock-out list</p>
-          </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/gstock_06.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Stock-out list</p>
         </div>
       </div>
     </div>
 
     <p></p>
 
-    <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <img class="bd-placeholder-img card-img-top" src="assets/gstock_07.png" alt="" srcset="">
-          </div>
-          <div class="col">
-            <p class="card-text">Add a new stock-out</p>
-          </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/gstock_07.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Add a new stock-out</p>
         </div>
       </div>
     </div>
 
     <p></p>
 
-    <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <img class="bd-placeholder-img card-img-top" src="assets/gstock_08.png" alt="" srcset="">
-          </div>
-          <div class="col">
-            <p class="card-text">Modify an existing stock-out</p>
-          </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/gstock_08.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Modify an existing stock-out</p>
         </div>
       </div>
     </div>
 
     <p></p>
 
-    <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <img class="bd-placeholder-img card-img-top" src="assets/gstock_09.png" alt="" srcset="">
-          </div>
-          <div class="col">
-            <p class="card-text">Stock status by article</p>
-          </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/gstock_09.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Stock status by article</p>
         </div>
       </div>
     </div>
 
     <p></p>
 
-    <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <img class="bd-placeholder-img card-img-top" src="assets/gstock_10.png" alt="" srcset="">
-          </div>
-          <div class="col">
-            <p class="card-text">Stock status by lot</p>
-          </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/gstock_10.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Stock status by lot</p>
         </div>
       </div>
     </div>
 
     <p></p>
 
-    <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <img class="bd-placeholder-img card-img-top" src="assets/gstock_11.png" alt="" srcset="">
-          </div>
-          <div class="col">
-            <p class="card-text">Articles types list</p>
-          </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/gstock_11.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Articles types list</p>
         </div>
       </div>
     </div>
 
     <p></p>
 
-    <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <img class="bd-placeholder-img card-img-top" src="assets/gstock_12.png" alt="" srcset="">
-          </div>
-          <div class="col">
-            <p class="card-text">Articles list</p>
-          </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/gstock_12.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Articles list</p>
         </div>
       </div>
     </div>
 
     <p></p>
 
-    <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <img class="bd-placeholder-img card-img-top" src="assets/gstock_13_CodeExample.png" alt="" srcset="">
-            <p></p>
-            <img class="bd-placeholder-img card-img-top" src="assets/gstock_14_CodeExample.png" alt="" srcset="">
-            <p></p>
-            <img class="bd-placeholder-img card-img-top" src="assets/gstock_15_CodeExample.png" alt="" srcset="">
-            <p></p>
-            <img class="bd-placeholder-img card-img-top" src="assets/gstock_16_CodeExample.png" alt="" srcset="">
-          </div>
-          <div class="col">
-            <p class="card-text">Code samples: Views (django) for Article operations (Add, Update, Delete, List)</p>
-          </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/gstock_17_CodeExample.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Code sample: Model (django) for Article</p>
         </div>
       </div>
     </div>
 
     <p></p>
 
-    <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <img class="bd-placeholder-img card-img-top" src="assets/gstock_17_CodeExample.png" alt="" srcset="">
-          </div>
-          <div class="col">
-            <p class="card-text">Code sample: Model (django) for Article</p>
-          </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/gstock_18_CodeExample.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Code sample: Form (django) for Article</p>
         </div>
       </div>
     </div>
 
     <p></p>
 
-    <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <img class="bd-placeholder-img card-img-top" src="assets/gstock_18_CodeExample.png" alt="" srcset="">
-          </div>
-          <div class="col">
-            <p class="card-text">Code sample: Form (django) for Article</p>
-          </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/gstock_13_CodeExample.png" alt="" srcset="">
+          <p></p>
+          <img class="bd-placeholder-img card-img-top" src="assets/gstock_14_CodeExample.png" alt="" srcset="">
+          <p></p>
+          <img class="bd-placeholder-img card-img-top" src="assets/gstock_15_CodeExample.png" alt="" srcset="">
+          <p></p>
+          <img class="bd-placeholder-img card-img-top" src="assets/gstock_16_CodeExample.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Code samples: Views (django) for Article operations (Add, Update, Delete, List)</p>
         </div>
       </div>
     </div>
 
     <p></p>
 
-    <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <img class="bd-placeholder-img card-img-top" src="assets/gstock_19-1_CodeExample.png" alt="" srcset="">
-            <p></p>
-            <img class="bd-placeholder-img card-img-top" src="assets/gstock_19-2_CodeExample.png" alt="" srcset="">
-            <p></p>
-            <img class="bd-placeholder-img card-img-top" src="assets/gstock_19-3_CodeExample.png" alt="" srcset="">
-          </div>
-          <div class="col">
-            <p class="card-text">Code sample: Template (django, HTML, CSS, JavaScript) for Article operations (Add, Update, Delete)</p>
-          </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/gstock_19-1_CodeExample.png" alt="" srcset="">
+          <p></p>
+          <img class="bd-placeholder-img card-img-top" src="assets/gstock_19-2_CodeExample.png" alt="" srcset="">
+          <p></p>
+          <img class="bd-placeholder-img card-img-top" src="assets/gstock_19-3_CodeExample.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Code sample: Template (django, HTML, CSS, JavaScript) for Article operations (Add, Update, Delete)</p>
         </div>
       </div>
     </div>
 
     <p></p>
 
-    <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <img class="bd-placeholder-img card-img-top" src="assets/gstock_20_CodeExample.png" alt="" srcset="">
-          </div>
-          <div class="col">
-            <p class="card-text">Code sample: Function (Javascript) to show/hide side menu.</p>
-          </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/gstock_20_CodeExample.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Code sample: Function (Javascript) to show/hide side menu.</p>
         </div>
       </div>
     </div>
 
     <p></p>
 
-    <div>
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <img class="bd-placeholder-img card-img-top" src="assets/gstock_21_CodeExample.png" alt="" srcset="">
-          </div>
-          <div class="col">
-            <p class="card-text">Code samples: Go Top button (HTML, CSS, JavaScript)</p>
-          </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/gstock_21_CodeExample.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Code samples: Go Top button (HTML, CSS, JavaScript)</p>
         </div>
       </div>
     </div>
@@ -375,15 +376,17 @@
   </main>
 
 
-  <footer class="text-muted py-5">
+  <footer class="text-muted py-3">
     <div class="container">
       <p class="float-end mb-1">
-        <a href="#">Back to top</a>
+        <!-- <a href="#">Back to top</a> -->
       </p>
     </div>
   </footer>
 
   <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="assets/gotopbutton.js"></script>
 
 </body>
 
