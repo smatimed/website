@@ -23,7 +23,8 @@
 
 
   <style>
-    body {
+    body,
+    .mySameColorAsBackground {
       background-color: lightgoldenrodyellow;
     }
 
@@ -80,10 +81,10 @@
       </div>
     </section>
 
-    <div class="album py-5 bg-light">
+    <div class="album mySameColorAsBackground">
       <div class="container">
 
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mySameColorAsBackground">
 
 
           <!-- *GESTION DE STOCK -->
@@ -95,8 +96,7 @@
               </svg> -->
 
               <a href="gstock.html">
-                <img class="bd-placeholder-img card-img-top" width="100%" height="75%" src="assets/gstock_00.png" alt=""
-                     srcset=""></a>
+                <img class="bd-placeholder-img card-img-top" width="100%" height="75%" src="assets/gstock_00.png" alt="image" srcset=""></a>
               <!-- old: height="225" -->
 
               <div class="card-body">
@@ -109,12 +109,15 @@
                 <P class="card-text mb-0">Technologies used:</P>
                 <ul>
                   <li class="fw-bold">Python, Django</li>
-                  <li class="fw-bold">HTML, CSS, JavaScript</li>
+                  <li class="fw-bold">Modules used (not part of Python): xhtml2pdf, openpyxl, configparser</li>
+                  <li class="fw-bold">Package used (not part of Django): widget_tweaks</li>
+                  <li class="fw-bold">HTML, CSS, Bootstrap, JavaScript</li>
                   <li class="fw-bold">PostgreSQL Database</li>
+                  <li class="fw-bold">NGINX (for deploiement)</li>
                 </ul>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a href="gstock.html" type="button" class="btn btn-sm btn-outline-secondary">View</a>
+                    <a href="gstock.html" type="button" class="btn btn-sm btn-outline-secondary">View in detail</a>
                   </div>
                   <!-- <small class="text-muted">9 mins</small> -->
                 </div>
@@ -139,13 +142,16 @@
                 <P class="card-text mb-0">Technologies used:</P>
                 <ul>
                   <li class="fw-bold">Python, Django</li>
-                  <li class="fw-bold">HTML, CSS, JavaScript</li>
-                  <li class="fw-bold">REST-API, XHR / Fetch</li>
+                  <li class="fw-bold">Django's framework: rest_framework to create RESTful APIs (Web APIs)</li>
+                  <li class="fw-bold">Package used (not part of Django): widget_tweaks</li>
+                  <li class="fw-bold">Modules used (not part of Python): xhtml2pdf, openpyxl</li>
+                  <li class="fw-bold">HTML, CSS, Bootstrap, JavaScript, XHR / Fetch</li>
                   <li class="fw-bold">MariaDB Database</li>
+                  <li class="fw-bold">NGINX (for deploiement)</li>
                 </ul>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <!-- <a href="mvts_sdsi.html" type="button" class="btn btn-sm btn-outline-secondary">View</a> -->
+                    <a href="mvts_sdsi.html" type="button" class="btn btn-sm btn-outline-secondary">View in detail</a>
                   </div>
                   <!-- <small class="text-muted">9 mins</small> -->
                 </div>
@@ -177,7 +183,7 @@
                 </ul>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <!-- <a href="mission.html" type="button" class="btn btn-sm btn-outline-secondary">View</a> -->
+                    <!-- <a href="mission.html" type="button" class="btn btn-sm btn-outline-secondary">View in detail</a> -->
                   </div>
                   <!-- <small class="text-muted">9 mins</small> -->
                 </div>
@@ -211,7 +217,7 @@
                 </ul>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <!-- <a href="SurveillerConnexions.html" type="button" class="btn btn-sm btn-outline-secondary">View</a> -->
+                    <!-- <a href="SurveillerConnexions.html" type="button" class="btn btn-sm btn-outline-secondary">View in detail</a> -->
                   </div>
                   <!-- <small class="text-muted">9 mins</small> -->
                 </div>
@@ -241,7 +247,7 @@
                 </ul>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <!-- <a href="dbf_reader.html" type="button" class="btn btn-sm btn-outline-secondary">View</a> -->
+                    <!-- <a href="dbf_reader.html" type="button" class="btn btn-sm btn-outline-secondary">View in detail</a> -->
                   </div>
                   <!-- <small class="text-muted">9 mins</small> -->
                 </div>
@@ -271,7 +277,7 @@
                 </ul>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <!-- <a href="NetMessage.html" type="button" class="btn btn-sm btn-outline-secondary">View</a> -->
+                    <!-- <a href="NetMessage.html" type="button" class="btn btn-sm btn-outline-secondary">View in detail</a> -->
                   </div>
                   <!-- <small class="text-muted">9 mins</small> -->
                 </div>
