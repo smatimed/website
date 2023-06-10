@@ -80,3 +80,17 @@ Permet d'envoyer et recevoir des messages dans un réseau local d'une manière s
 
 Delphi (Oriented Object Pascal)
 Windows socket
+
+
+7- HANGMAN
+LE PENDU
+
+The famous hangman game where you have to find the hidden word.
+Dynamic: the list is not fixed but it is in a database.
+Multi-level: easy, medium, hard.
+Multi-languages.
+
+Le fameux jeu du pendu où on doit trouver le mot caché.
+Dynamique: la liste n'est pas fixe mais elle est dans une base de données.
+Multi-niveaux: facile, moyen, difficile.
+Multi-langues.

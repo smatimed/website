@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Mohamed SMATI">
+  <meta name="author" content="Mohamed SMATI">
+  <meta name="keywords"
+        content="curriculum vitae, CV, portfolio, Lebenslauf, smati, engineer, ingénieur, ingenieur, computer science, informatique, Informatik, master, I.T, Web development, développement web, Webentwicklung, experience, Erfahrung, python, django, flask, sql, delphi, job, work, Arbeit" />
+  <title>Hangman</title>
+
+
+  <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/"> -->
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="assets/icons/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/style.css">
+
+  <style>
+    body {
+      background-color: lightblue;
+    }
+
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    /* img:hover {
+      width: 200%;
+      height: 150%;
+    } */
+    img:hover {
+      border: 5px solid maroon;
+      transform: scale(2);
+      transform-origin: left;
+      translate: 20px;
+      transition: all .2s linear;
+    }
+
+    /* img {
+      border: 10px solid maroon;
+    } */
+  </style>
+
+
+</head>
+
+<body>
+
+  <main>
+
+    <!-- *Navigateur* start -->
+    <div class="col-12 py-2">
+      <a href="index.html" style="float: right;" class="btn btn-outline-dark btn-rounded mx-2" role="button">
+        <span class="bi bi-house-fill" style="font-size: large"></span>
+        <p class="m-0 p-0">Home</p>
+      </a>
+      <a href="portfolio.html" style="float: right;" class="btn btn-outline-dark btn-rounded mx-2" role="button">
+        <span class="bi bi-arrow-90deg-up" style="font-size: large"></span>
+        <p class="m-0 p-0">Source</p>
+      </a>
+      <button onclick="history.back()" class="btn btn-outline-dark btn-rounded mx-2" style="float: right;">
+        <span class="bi bi-arrow-left" style="font-size: large"></span>
+        <p class="m-0 p-0">Back</p>
+      </button>
+      <a href="#" class="btn-dark" id="theGoTopBtn" style="display: none;">
+        <span class="bi bi-arrow-up-circle-fill" style="font-size: large"></span>
+      </a>
+    </div>
+    <!-- *Navigateur* end -->
+
+
+    <section class="pt-0 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light fw-bold text-primary">HANGMAN</h1>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+
+      <!-- <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"> -->
+      <div class="row pb-3">
+        <div class="col-6">
+          <ul class="py-0 my-0">
+            <li class="fs-5">The famous hangman game where you have to find the hidden word.</li>
+            <li class="fs-5">Dynamic: the list of words is not fixed but it is in a database.</li>
+            <li class="fs-5">Multi-levels: easy, medium, hard.</li>
+            <li class="fs-5">Multi-languages.</li>
+            <li class="fs-5"><b>Link to play the game: <a href="http://smatimed.pythonanywhere.com/">smatimed.pythonanywhere.com</a></b></li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <P class="fs-5 mb-0">Technologies used:</P>
+          <ul>
+            <li class="fs-5 fw-bold">Python, Django</li>
+            <li class="fs-5 fw-bold">Django's framework: rest_framework to create RESTful APIs (Web APIs)</li>
+            <li class="fs-5 fw-bold">HTML, CSS, Bootstrap, JavaScript, Fetch API</li>
+            <li class="fs-5 fw-bold">SQLite3 Database</li>
+            <li class="fs-5 fw-bold">Deployed in the site https://www.pythonanywhere.com/</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="assets/hangman_01_database.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Database: <b>SQLite3</b></p>
+        </div>
+      </div>
+    </div>
+
+    <p></p>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="assets/hangman_02.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Main screen (after choosing the language).</p>
+          <p class="fs-4 mb-0">We can choose:</p>
+          <p class="fs-4 mb-0">- game difficulty</p>
+          <p class="fs-4">- some options: show indication (brief definition), show help, remove 5 letters</p>
+        </div>
+      </div>
+    </div>
+
+    <p></p>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="assets/hangman_03.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Example of screen during the game.</p>
+          <p class="fs-4">We can see: the user's word, the indication, letters. </p>
+        </div>
+      </div>
+    </div>
+
+    <p></p>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="assets/hangman_04.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">After the 5th error, we propose a help which consist of a brief hint.</p>
+        </div>
+      </div>
+    </div>
+
+    <p></p>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/hangman_05.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">After the 8th error, we propose to remove 5 letters.</p>
+        </div>
+      </div>
+    </div>
+
+    <p></p>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/hangman_06.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Screen after the user has won</p>
+        </div>
+      </div>
+    </div>
+
+    <p></p>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/hangman_07.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Screen after the user has failed</p>
+        </div>
+      </div>
+    </div>
+
+    <p></p>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/hangman_08_CodeExample.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Code sample: <b>Model</b> (django) for the words list</p>
+        </div>
+      </div>
+    </div>
+
+    <p></p>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/hangman_09_CodeExample.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Code samples: <b>View</b> (django); there isn't big views in this game.</p>
+        </div>
+      </div>
+    </div>
+
+    <p></p>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/hangman_10-1_CodeExample.png" alt="" srcset="">
+          <p></p>
+          <img class="bd-placeholder-img card-img-top" src="assets/hangman_10-2_CodeExample.png" alt="" srcset="">
+          <p></p>
+          <img class="bd-placeholder-img card-img-top" src="assets/hangman_10-3_CodeExample.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Code sample: <b>Template</b> (django, HTML, CSS, Bootstrap, JavaScript) for main screen of the game</p>
+        </div>
+      </div>
+    </div>
+
+    <p></p>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/hangman_11_CodeExample.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4"><b>Fetch API</b> (javascript) to use RESTful APIs (Django)</p>
+          <p class="fs-4">We use <b>javascript Fetch API</b> (in client side) to get a word from the database using <b>Django RESTful API</b> (in server side).</p>
+        </div>
+      </div>
+    </div>
+
+    <p></p>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/hangman_12_CodeExample.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Code sample: <b>Serializer</b> and <b>View</b> to create a <b>RESTful API</b> to give a word randomly from the database.</p>
+          <p class="fs-4">Make it so that the words chosen (randomly) are those which have not been chosen frequently.</p>
+        </div>
+      </div>
+    </div>
+
+    <p></p>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="bd-placeholder-img card-img-top" src="assets/hangman_13.png" alt="" srcset="">
+        </div>
+        <div class="col">
+          <p class="fs-4">Deploiement in the site https://www.pythonanywhere.com/</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+  <footer class="text-muted py-3">
+    <div class="container">
+      <p class="float-end mb-1">
+        <!-- <a href="#">Back to top</a> -->
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="assets/gotopbutton.js"></script>
+
+</body>
+
+</html>
