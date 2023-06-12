@@ -7,7 +7,7 @@
   <meta name="description" content="curriculum vitae (CV) of Mohamed SMATI">
   <meta name="author" content="Mohamed SMATI">
   <meta name="keywords"
-        content="curriculum vitae, CV, Lebenslauf, smati, engineer, ingénieur, ingenieur, computer science, informatique, Informatik, master, I.T, Web development, développement web, Webentwicklung, experience, Erfahrung, python, django, flask, sql, delphi, job, work, Arbeit" />
+        content="curriculum vitae, CV, Lebenslauf, smati, engineer, ingénieur, ingenieur, computer science, informatique, Informatik, master, I.T, Web development, développement web, Webentwicklung, experience, Erfahrung, python, django, flask, sql, delphi, job, work, Arbeit, portfolio" />
   <title>Mohamed SMATI website</title>
 
   <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/jumbotron/"> -->
@@ -21,6 +21,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+  <style>
+  </style>
 
 </head>
 
@@ -172,19 +175,28 @@
 
           <!-- ! *** Languages bar tools *** -->
           <div class="col-4">
-            <ul>
-              <li id="en_click" class="mx-1 button_lang current_lang anim" data-bs-toggle="tooltip"
-                  data-bs-placement="bottom" data-bs-original-title="English">En</li>
-              <!-- <span>&nbsp;&nbsp;&nbsp;</span> -->
-              <li id="fr_click" class="mx-1 button_lang anim" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                  data-bs-original-title="Français">Fr</li>
-              <!-- <span>&nbsp;&nbsp;&nbsp;</span> -->
-              <li id="de_click" class="mx-1 button_lang anim" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                  data-bs-original-title="Deutsch">De</li>
-              <!-- <span>&nbsp;&nbsp;&nbsp;</span> -->
-              <li id="ar_click" class="mx-1 button_lang anim" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                  data-bs-original-title="عربي">&nbsp;ع&nbsp;</li>
-            </ul>
+            <div class="row">
+              <ul>
+                <li id="en_click" class="mx-1 button_lang current_lang anim" data-bs-toggle="tooltip"
+                    data-bs-placement="bottom" data-bs-original-title="English">En</li>
+                <!-- <span>&nbsp;&nbsp;&nbsp;</span> -->
+                <li id="fr_click" class="mx-1 button_lang anim" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                    data-bs-original-title="Français">Fr</li>
+                <!-- <span>&nbsp;&nbsp;&nbsp;</span> -->
+                <li id="de_click" class="mx-1 button_lang anim" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                    data-bs-original-title="Deutsch">De</li>
+                <!-- <span>&nbsp;&nbsp;&nbsp;</span> -->
+                <li id="ar_click" class="mx-1 button_lang anim" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                    data-bs-original-title="عربي">&nbsp;ع&nbsp;</li>
+              </ul>
+            </div>
+            <a href="portfolio.html">
+              <img id="portfolio_img" class="m-3" src="assets/folder-maroon.png" alt="portfolio" width="100" onmouseover="img_hover(this)" onmouseout="img_unhover(this)">
+            </a>
+            <p class="ms-4 fs-5 fw-bold ombre-text">Portfolio</p>
+            <!-- <a href="portfolio.html" class="ms-3">Portfolio</a> -->
+            <!-- <div class="row">
+            </div> -->
           </div>
         </div>
       </header>
@@ -460,7 +472,7 @@
                 <li><b>Java (متوسط)</b></li>
               </div>
 
-              <li><b>Delphi</b></li>
+              <li><b>Delphi (Oriented Object Pascal)</b></li>
             </ul>
           </div>
         </div>
@@ -711,21 +723,22 @@
     </div>
   </main>
 
+  <script src="assets/gotopbutton.js"></script>
 
   <script>
-    //Get the GoTop button
-    var theGoTopButton = document.getElementById("theGoTopBtn");
+    // //Get the GoTop button
+    // var theGoTopButton = document.getElementById("theGoTopBtn");
 
-    // When the user scrolls down 100px from the top of the document, show the button
-    window.onscroll = function () { scrollFunction() };
+    // // When the user scrolls down 100px from the top of the document, show the button
+    // window.onscroll = function () { scrollFunction() };
 
-    function scrollFunction() {
-      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        theGoTopButton.style.display = "block";
-      } else {
-        theGoTopButton.style.display = "none";
-      }
-    }
+    // function scrollFunction() {
+    //   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    //     theGoTopButton.style.display = "block";
+    //   } else {
+    //     theGoTopButton.style.display = "none";
+    //   }
+    // }
 
 
     // switching between languages
@@ -847,6 +860,14 @@
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
       return new bootstrap.Tooltip(tooltipTriggerEl)
     })
+
+    function img_hover(element) {
+      element.setAttribute('src', "assets/folder-open-maroon.png");
+    }
+
+    function img_unhover(element) {
+      element.setAttribute('src', "assets/folder-maroon.png");
+    }
   </script>
 
 </body>
