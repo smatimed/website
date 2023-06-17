@@ -363,6 +363,7 @@ body {
       }
   }
   @media (max-width: 235px) {
+      /* Même chose*/
     .letter-anim {
         font-size: 100%;
       }
