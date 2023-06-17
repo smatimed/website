@@ -163,7 +163,7 @@ body {
 } */
 
 
-/* Animation of 'Moahmed SMATI'  */
+/* Animation of 'Mohamed SMATI'  */
 .letter-anim {
   display: inline-block;
   text-shadow: 2px 2px silver;
@@ -353,4 +353,17 @@ body {
     html {
       font-size: 65%;
     }
+  }
+
+  @media (max-width: 310px) {
+    /* diminuer la taille des lettres animés pour que le texte ne soit pas affiché sur 2 lignes */
+    /* 150% une diminution, car la taille originale est supérieure à cette valeur */
+    .letter-anim {
+        font-size: 150%;
+      }
+  }
+  @media (max-width: 235px) {
+    .letter-anim {
+        font-size: 100%;
+      }
   }
