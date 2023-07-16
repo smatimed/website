@@ -17,11 +17,38 @@ html {
   z-index: 900;
 }  
 
-body {
+body[data="index"] {
   /* background-color: rgba(251, 255, 0, 0.075); */
   /* background-color: rgba(251, 255, 0, 0.2); */
-  background-color: rgba(255, 174, 0, 0.2);
-}  
+  /* background-color: rgba(255, 174, 0, 0.2); */
+  /* background: linear-gradient(to right, #ffae0075, #feb20e46, #ffae0075); */
+  background: linear-gradient(to right, #c5890775, #ffae0075, #c5890775);
+} 
+
+body[data="portfolio"],
+.mySameColorAsBackground {
+  /* background-color: lightgoldenrodyellow; */
+  background: linear-gradient(to right, #e4e48d, #fafad2, #e4e48d);
+}
+
+body[data="applications"] {
+  /* background-color: lightblue; */
+  background: linear-gradient(to right, #48a3c1, #add8e6, #48a3c1);
+}
+
+.my-ombre-cadre {
+  box-shadow: 5px 5px 10px #c5890775, -5px -5px 10px #c5890775, 5px -5px 10px #c5890775, -5px 5px 10px #c5890775;
+}
+.my-ombre-cadre-2 {
+  box-shadow: 5px 5px 10px #d3d3d3, -5px -5px 10px #d3d3d3, 5px -5px 10px #d3d3d3, -5px 5px 10px #d3d3d3;
+}
+
+.my-background {
+  background: linear-gradient(to bottom, #e9e98e, #ffffff, #ffffff);
+}
+.my-background-2 {
+  background: linear-gradient(to bottom, #4a4a36, #000000, #000000);
+}
 
 /* -------------------- */
 
