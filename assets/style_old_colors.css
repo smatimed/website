@@ -9,7 +9,6 @@ html {
 }  
 
 #me_img:hover {
-  transition-duration: 0.5s;
   transform: scale(2) translate(10px,30px);
   position: fixed;
   /* top: 20px;
@@ -18,22 +17,12 @@ html {
   z-index: 900;
 }  
 
-/* 
-colors (jquery):
-#0769ad , #06568e 
-#0465a3 #76caf2 #0769ad #044976 #2ea8de #052f66 #2f98cf
-*/
-
 body[data="index"] {
   /* background-color: rgba(251, 255, 0, 0.075); */
   /* background-color: rgba(251, 255, 0, 0.2); */
   /* background-color: rgba(255, 174, 0, 0.2); */
   /* background: linear-gradient(to right, #ffae0075, #feb20e46, #ffae0075); */
-
-  /* OLD: background: linear-gradient(to right, #c5890775, #ffae0075, #c5890775); */
-
-  /* background: linear-gradient(to right, #0769ad, #2280c4, #0769ad); */
-  background-color: #06568e;
+  background: linear-gradient(to right, #c5890775, #ffae0075, #c5890775);
 } 
 
 body[data="portfolio"],
@@ -47,64 +36,20 @@ body[data="applications"] {
   background: linear-gradient(to right, #48a3c1, #add8e6, #48a3c1);
 }
 
-/* ---- colors ---- */
-#inexistant {
-  color: #0465a3 #76caf2 #0769ad #044976 #2ea8de #052f66 #2f98cf;
-}
-
 .my-ombre-cadre {
-  /* box-shadow: 5px 5px 10px #c5890775, -5px -5px 10px #c5890775, 5px -5px 10px #c5890775, -5px 5px 10px #c5890775; */
-  /* box-shadow: 5px 5px 10px #0465a3, -5px -5px 10px #0465a3, 5px -5px 10px #0465a3, -5px 5px 10px #0465a3; */
-  box-shadow: 4px 4px 8px #3177a8, -4px -4px 8px #3177a8, 4px -4px 8px #3177a8, -4px 4px 8px #3177a8;
+  box-shadow: 5px 5px 10px #c5890775, -5px -5px 10px #c5890775, 5px -5px 10px #c5890775, -5px 5px 10px #c5890775;
 }
 .my-ombre-cadre-2 {
-  /* box-shadow: 5px 5px 10px #d3d3d3, -5px -5px 10px #d3d3d3, 5px -5px 10px #d3d3d3, -5px 5px 10px #d3d3d3; */
-  box-shadow: 5px 5px 10px #b3d8f3, -5px -5px 10px #b3d8f3, 5px -5px 10px #b3d8f3, -5px 5px 10px #b3d8f3;
+  box-shadow: 5px 5px 10px #d3d3d3, -5px -5px 10px #d3d3d3, 5px -5px 10px #d3d3d3, -5px 5px 10px #d3d3d3;
 }
 
 .my-background {
-  /* background: linear-gradient(to bottom, #e9e98e, #ffffff, #ffffff); */
-  background:  linear-gradient(to bottom, #3979a7bd 0%, #fff 25%);
-  /* #dee6ec */
+  background: linear-gradient(to bottom, #e9e98e, #ffffff, #ffffff);
 }
 .my-background-2 {
-  /* background: linear-gradient(to bottom, #4a4a36, #000000, #000000); */
-  background: linear-gradient(to bottom, #5c8eb1 0%, #000000 25%);
+  background: linear-gradient(to bottom, #4a4a36, #000000, #000000);
 }
 
-.my-text-light {
-  color: #c3deee;
-}
-
-.ombre-cadre {
-  box-shadow: 4px 4px silver;
-}
-
-.ombre-text {
-  /* text-shadow: 1.5px 1.5px silver; !important */
-  /* text-shadow: 1.5px 1.5px #2f98cf; !important */
-  text-shadow: 1.5px 1.5px gray;
-   !important
-}
-.ombre-text-petit {
-  /* text-shadow: 1.5px 1.5px silver; !important */
-  /* text-shadow: 1.5px 1.5px #2f98cf; !important */
-  text-shadow: 1px 1px gray;
-   !important
-}
-.ombre-text-dark {
-  text-shadow: 1.5px 1.5px gray;
-   !important
-}
-
-.my-text-titre {
-  color: #550a14;
-}
-
-/* .my-text-muted {
-  /* color: #052f66; * /
-  color: #c3deee;
-} */
 /* -------------------- */
 
 .l_ar,
@@ -113,9 +58,7 @@ body[data="applications"] {
 }
 
 .button_lang {
-  /* background-color: rgb(105, 107, 106); */
-  background-color: #06568e; 
-  border: 0.5px solid silver;
+  background-color: rgb(105, 107, 106);
   color: #fff;
   padding: 8px 15px;
   /* padding: 8px 20px; */
@@ -177,6 +120,17 @@ body[data="applications"] {
   box-shadow: 2px 2px gray;
   transform: translateY(2px);
   -webkit-transform: translateY(2px);
+}
+
+.ombre-cadre {
+  box-shadow: 4px 4px silver;
+}
+
+.ombre-text {
+    text-shadow: 1.5px 1.5px silver; !important
+}
+.ombre-text-dark {
+    text-shadow: 1.5px 1.5px gray; !important
 }
 
 /* buttons animation */
@@ -326,91 +280,43 @@ body[data="applications"] {
   90% {
     transform: translateY(-1px);
     -webkit-transform: translateY(-1px);
-    color: rgb(29, 29, 26);
-    -webkit-color: rgb(29, 29, 26);
+    color: rgb(100, 60, 60);
+    -webkit-color: rgb(100, 60, 60);
   }
 
   20%,
   80% {
     transform: translateY(-2px);
     -webkit-transform: translateY(-2px);
-    color: rgb(130, 125, 60);
-    -webkit-color: rgb(130, 125, 60);
+    color: rgb(130, 60, 60);
+    -webkit-color: rgb(130, 60, 60);
   }
 
   30%,
   70% {
     transform: translateY(-3px);
     -webkit-transform: translateY(-3px);
-    color: rgb(160, 150, 60);
-    -webkit-color: rgb(160, 150, 60);
+    color: rgb(160, 60, 60);
+    -webkit-color: rgb(160, 60, 60);
   }
 
   40%,
   60% {
     transform: translateY(-4px);
     -webkit-transform: translateY(-4px);
-    color: rgb(190, 181, 60);
-    -webkit-color: rgb(190, 181, 60);
+    color: rgb(190, 60, 60);
+    -webkit-color: rgb(190, 60, 60);
   }
 
   50% {
     transform: translateY(-5px);
     -webkit-transform: translateY(-5px);
-    color: rgb(220, 209, 60);
-    -webkit-color: rgb(220, 209, 60);
+    color: rgb(220, 60, 60);
+    -webkit-color: rgb(220, 60, 60);
   }
 }
 
 @-webkit-keyframes anim_letters {
-  0% {
-    transform: translateY(0px);
-    -webkit-transform: translateY(0px);
-    color: rgb(0, 0, 0);
-    -webkit-color: rgb(0, 0, 0);
-  }
-
-  10%,
-  90% {
-    transform: translateY(-1px);
-    -webkit-transform: translateY(-1px);
-    color: rgb(29, 29, 26);
-      -webkit-color: rgb(29, 29, 26);
-  }
-
-  20%,
-  80% {
-    transform: translateY(-2px);
-    -webkit-transform: translateY(-2px);
-    color: rgb(130, 125, 60);
-    -webkit-color: rgb(130, 125, 60);
-  }
-
-  30%,
-  70% {
-    transform: translateY(-3px);
-    -webkit-transform: translateY(-3px);
-    color: rgb(160, 150, 60);
-    -webkit-color: rgb(160, 150, 60);
-  }
-
-  40%,
-  60% {
-    transform: translateY(-4px);
-    -webkit-transform: translateY(-4px);
-    color: rgb(190, 181, 60);
-    -webkit-color: rgb(190, 181, 60);
-  }
-
-  50% {
-    transform: translateY(-5px);
-    -webkit-transform: translateY(-5px);
-    color: rgb(220, 209, 60);
-    -webkit-color: rgb(220, 209, 60);
-  }
-}
-
-/* @-webkit-keyframes anim_letters {
   0% {
       transform: translateY(0px);
       -webkit-transform: translateY(0px);
@@ -456,7 +362,7 @@ body[data="applications"] {
       color: rgb(220, 60, 60);
       -webkit-color: rgb(220, 60, 60);
     }
-  } */
+  }
 
   /* portfolio image */
 
