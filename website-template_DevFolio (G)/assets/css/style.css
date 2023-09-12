@@ -860,6 +860,16 @@ a:hover {
   background-color: #0078ff;
 }
 
+.skill-mf .progress .progress-bar2 {
+  /* mine */
+  background-color: #0f4583;
+}
+
+.skill-mf .progress .progress-bar-lang {
+  /* mine */
+  background-color: #0c6438;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
