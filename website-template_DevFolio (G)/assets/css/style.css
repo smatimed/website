@@ -1473,69 +1473,42 @@ footer .credits a {
 }
 
 
-/* ******** */
-
-/* .bouton-portfolio:hover {
-  color: red;
-}
-
+/* ************************************** */
+/* OLD
 .bouton-cercle {
-  height: 20px;
-  width: 20px;
-  /* font-size: 2rem; * /
-  border-radius: 50%;
-  /* line-height: 1.55; * /
-  /* margin: 0 auto; * /
-  text-align: center;
-  /* box-shadow: 0 0 0 10px #0078ff; * /
-  display: block;
-}
-
-.bouton-cercle:hover {
-  background-color: #0078ff;
-  color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
-  transition: all 500ms ease;
-} */
-
-/* .bouton-cercle {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  /* Makes it circular * /
-  background-color: #3498db;
-  /* Initial background color * /
-  color: #fff;
-  text-align: center;
-  line-height: 100px;
-  /* Vertically center text * /
-  text-decoration: none;
-  /* Remove underline from the link * /
-  cursor: pointer;
-  transition: background-color 0.3s;
-  /* Smooth transition for background color * /
-} */
-
-.bouton-cercle {
-    /* height: 40px; */
-    /* width: 40px;  */
-    /* font-size: 1.2rem; */
-    /* border-radius: 50%; */
-    /* line-height: 1.6; */
-    /* margin: 0 15px 0 0; */
-    /* box-shadow: 0 0 0 3px #0078ff; */
+    border-radius: 50%;
     transition: all 500ms ease;
   }
 
 .bouton-cercle:hover {
-  /* background-color: #0078ff; */
-  /* color: #fff; */
-  /* color: #0078ff; */
-  /* font-weight: bolder; */
-  /* font-size: xx-large; */
+  color: #fff;
   font-size: 3rem;
   font-weight: bold;
-  /* box-shadow: 0 0 0 3px #cde1f8; */
-  /* transition: all 500ms ease; */
+ } */
+
+
+ .bouton-cercle {
+   background: #fff;
+   width: 40px;
+   height: 40px;
+   border-radius: 50px;
+   font-size: 28px;
+   color: #0078ff;
+   line-height: 0;
+   transition: all 0.4s;
+   border: 2px solid #0078ff;
+ }
+
+ .bouton-cercle span {
+   font-size: 28px;
+   color: #0078ff;
+   line-height: 0;
+ }
+ 
+ .bouton-cercle:hover {
+   background: #0078ff;
+   /* color: #fff; */
+ }
+ .bouton-cercle span:hover {
+   color: #fff;
  }
