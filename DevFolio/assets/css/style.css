@@ -1473,7 +1473,7 @@ footer .credits a {
 }
 
 
-/* ************************************** */
+/* ************************************** by Me */
 /* OLD
 .bouton-cercle {
     border-radius: 50%;
@@ -1512,3 +1512,21 @@ footer .credits a {
  .bouton-cercle span:hover {
    color: #fff;
  }
+
+
+ /* .box-shadow-full-2 {
+  position: relative;
+  background-color: #ebe8e8;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  min-height: 200px; !important
+}
+.swiper-slide-portfolio {
+background-color: #ebe8e8;
+}
+
+ @media (min-width: 768px) {
+   .box-shadow-full-2 {
+     padding: 3rem;
+   }
+ } */
