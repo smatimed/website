@@ -354,8 +354,14 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background: #298eff;
+  background: #fff;
   color: #fff;
+  /* background: #298eff;
+  color: #fff; */
+  border: 1px solid #0078ff;
+}
+.back-to-top i:hover {
+  color: #0078ff;
 }
 
 .back-to-top.active {
