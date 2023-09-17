@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,868 +9,1568 @@
   <meta name="keywords"
         content="curriculum vitae, CV, Lebenslauf, smati, engineer, ingénieur, ingenieur, computer science, informatique, Informatik, master, I.T, Web development, développement web, Webentwicklung, experience, Erfahrung, python, django, flask, javascript, jquery, sql, delphi, job, work, Arbeit, portfolio" />
   <title>Mohamed SMATI website</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-  <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/jumbotron/"> -->
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Bootstrap core CSS -->
-  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/icons/bootstrap-icons.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="assets/style.css">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-
-  <style>
-  </style>
-
+  <!-- =======================================================
+  * Template Name: DevFolio
+  * Updated: Jul 27 2023 with Bootstrap v5.3.1
+  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
-<body data="index">
+<body>
 
-  <a href="#" class="btn-primary" id="theGoTopBtn"><span class="bi bi-shift-fill fw-bold"
-          style="font-size: 150%;"></span></a>
-  <!-- <a href="#" class="btn-primary" id="theGoTopBtn"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
-         fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
-      <path
-            d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
-    </svg></a> -->
+  <!-- * ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
 
-  <main>
+      <!-- <h1 class="logo"><a href="index.html">DevFolio</a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo"><img src="assets/img/Me.png" alt="" class="img-fluid"></a>
 
-    <div class="container py-4">
-      <header class="pb-3 mb-4">
-        <div class="row">
-          <div class="col-8">
-            <div class="row">
-              <div class="col-3">
-                <img class="d-none d-sm-block" src="assets/Me.png" alt="My photo" width="100" height="124" id="me_img">
-                <!-- <img src="Me.png" alt="My photo" width="100" height="124" id="me_img"> -->
-              </div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#skills">Skills</a></li>
+          <li><a class="nav-link scrollto" href="#experience-education">Experience &amp; Education</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
+          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <!-- <li><a class="nav-link scrollto " href="#blog">Blog</a></li> -->
 
-              <!-- ! *** Name (animated) *** -->
-              <div class="col mt-4">
-                <!-- En -->
-                <div class="l_en">
-                  <!-- <span class="fs-1 fw-bold">Mohamed SMATI</span> -->
-                  <div class="d-block d-sm-inline-block">
-                    <span class="display-4 fw-bold letter-anim" id="l1">M</span>
-                    <span class="display-4 fw-bold letter-anim" id="l2">o</span>
-                    <span class="display-4 fw-bold letter-anim" id="l3">h</span>
-                    <span class="display-4 fw-bold letter-anim" id="l4">a</span>
-                    <span class="display-4 fw-bold letter-anim" id="l5">m</span>
-                    <span class="display-4 fw-bold letter-anim" id="l6">e</span>
-                    <span class="display-4 fw-bold letter-anim" id="l7">d</span>
-                    <span class="display-4 fw-bold letter-anim" id="l8">&nbsp;</span>
-                  </div>
-                  <div class="d-block d-sm-inline-block">
-                    <span class="display-4 fw-bold letter-anim" id="l9">S</span>
-                    <span class="display-4 fw-bold letter-anim" id="l10">M</span>
-                    <span class="display-4 fw-bold letter-anim" id="l11">A</span>
-                    <span class="display-4 fw-bold letter-anim" id="l12">T</span>
-                    <span class="display-4 fw-bold letter-anim" id="l13">I</span>
-                  </div>
-                  <br>
-                </div>
-                <!-- Fr -->
-                <div class="l_fr">
-                  <!-- <span class="fs-1 fw-bold">Mohamed SMATI</span><br> -->
-                  <div class="d-block d-sm-inline-block">
-                    <span class="display-4 fw-bold letter-anim" id="l1">M</span>
-                    <span class="display-4 fw-bold letter-anim" id="l2">o</span>
-                    <span class="display-4 fw-bold letter-anim" id="l3">h</span>
-                    <span class="display-4 fw-bold letter-anim" id="l4">a</span>
-                    <span class="display-4 fw-bold letter-anim" id="l5">m</span>
-                    <span class="display-4 fw-bold letter-anim" id="l6">e</span>
-                    <span class="display-4 fw-bold letter-anim" id="l7">d</span>
-                    <span class="display-4 fw-bold letter-anim" id="l8">&nbsp;</span>
-                  </div>
-                  <div class="d-block d-sm-inline-block">
-                    <span class="display-4 fw-bold letter-anim" id="l9">S</span>
-                    <span class="display-4 fw-bold letter-anim" id="l10">M</span>
-                    <span class="display-4 fw-bold letter-anim" id="l11">A</span>
-                    <span class="display-4 fw-bold letter-anim" id="l12">T</span>
-                    <span class="display-4 fw-bold letter-anim" id="l13">I</span>
-                  </div>
-                  <br>
-                </div>
-                <!-- De -->
-                <div class="l_de">
-                  <!-- <span class="fs-1 fw-bold">Mohamed SMATI</span><br> -->
-                  <div class="d-block d-sm-inline-block">
-                    <span class="display-4 fw-bold letter-anim" id="l1">M</span>
-                    <span class="display-4 fw-bold letter-anim" id="l2">o</span>
-                    <span class="display-4 fw-bold letter-anim" id="l3">h</span>
-                    <span class="display-4 fw-bold letter-anim" id="l4">a</span>
-                    <span class="display-4 fw-bold letter-anim" id="l5">m</span>
-                    <span class="display-4 fw-bold letter-anim" id="l6">e</span>
-                    <span class="display-4 fw-bold letter-anim" id="l7">d</span>
-                    <span class="display-4 fw-bold letter-anim" id="l8">&nbsp;</span>
-                  </div>
-                  <div class="d-block d-sm-inline-block">
-                    <span class="display-4 fw-bold letter-anim" id="l9">S</span>
-                    <span class="display-4 fw-bold letter-anim" id="l10">M</span>
-                    <span class="display-4 fw-bold letter-anim" id="l11">A</span>
-                    <span class="display-4 fw-bold letter-anim" id="l12">T</span>
-                    <span class="display-4 fw-bold letter-anim" id="l13">I</span>
-                  </div>
-                  <br>
-                </div>
-                <!-- Ar -->
-                <div class="l_ar">
-                  <!-- <span class="fs-1 fw-bold">محمد سماتي</span><br> -->
-                  <div class="d-block d-sm-inline-block">
-                    <span class="display-4 fw-bold letter-anim" id="l10">ـي</span>
-                    <span class="display-4 fw-bold letter-anim" id="l9">تـ</span>
-                    <span class="display-4 fw-bold letter-anim" id="l8">ـا</span>
-                    <span class="display-4 fw-bold letter-anim" id="l7">مـ</span>
-                    <span class="display-4 fw-bold letter-anim" id="l6">سـ</span>
-                    <span class="display-4 fw-bold letter-anim" id="l5">&nbsp;</span>
-                  </div>
-                  <div class="d-block d-sm-inline-block">
-                    <span class="display-4 fw-bold letter-anim" id="l4">د</span>
-                    <span class="display-4 fw-bold letter-anim" id="l3">مـ</span>
-                    <span class="display-4 fw-bold letter-anim" id="l2">حـ</span>
-                    <span class="display-4 fw-bold letter-anim" id="l1">مـ</span>
-                    <span class="display-4 fw-bold letter-anim" id="l11"></span>
-                    <span class="display-4 fw-bold letter-anim" id="l12"></span>
-                    <span class="display-4 fw-bold letter-anim" id="l13"></span>
-                  </div>
-                  <br>
-                </div>
-              </div>
-            </div>
-
-            <!-- ! *** Diploma and Job title *** -->
-            <div class="row ombre-text my-text-light">
-              <!-- En -->
-              <div class="l_en">
-                <span class="fs-4 fw-bold">Computer science <span class="fs-2">engineer</span> since 1991
-                  &nbsp;&&nbsp;<span class="fs-2">MASTER</span> since 2014</span><br>
-                <span class="fs-4 fw-bold"><span class="fs-2">Deputy Director of I.T</span> at CNAS since 2000</span>
-              </div>
-              <!-- Fr -->
-              <div class="l_fr">
-                <span class="fs-4 fw-bold"><span class="fs-2">Ingénieur</span> en informatique depuis 1991 &nbsp;&&nbsp;
-                  <span class="fs-2">MASTER</span> depuis 2014</span><br>
-                <span class="fs-4 fw-bold"><span class="fs-2">Sous-Directeur des T.I</span> à la CNAS depuis 2000</span>
-              </div>
-              <!-- De -->
-              <div class="l_de">
-                <span class="fs-4 fw-bold"><span class="fs-2">Informatikingenieur</span> seit 1991 &nbsp;&&nbsp;
-                  <span class="fs-2">MASTER</span> seit 2014</span><br>
-                <span class="fs-4 fw-bold"><span class="fs-2">Stellvertretender Direktor für IT</span> bei CNAS seit
-                  2000</span>
-              </div>
-              <!-- Ar -->
-              <div class="l_ar">
-                <span class="fs-4 fw-bold"><span class="fs-2">مهندس</span> في الإعلام الآلي منذ عام 1991 &nbsp;و&nbsp;
-                  <span class="fs-2">ماستر</span> منذ 2014</span><br>
-                <span class="fs-4 fw-bold"><span class="fs-2">نائب مدير تكنولوجيا المعلومات</span> في كناص منذ عام
-                  2000</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- ! *** Languages bar tools *** -->
-          <div class="col-4">
-            <div class="row">
-              <ul>
-                <li id="en_click" class="mx-1 button_lang current_lang anim" data-bs-toggle="tooltip"
-                    data-bs-placement="bottom" data-bs-original-title="English">En</li>
-                <!-- <span>&nbsp;&nbsp;&nbsp;</span> -->
-                <li id="fr_click" class="mx-1 button_lang anim" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                    data-bs-original-title="Français">Fr</li>
-                <!-- <span>&nbsp;&nbsp;&nbsp;</span> -->
-                <li id="de_click" class="mx-1 button_lang anim" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                    data-bs-original-title="Deutsch">De</li>
-                <!-- <span>&nbsp;&nbsp;&nbsp;</span> -->
-                <li id="ar_click" class="mx-1 button_lang anim" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                    data-bs-original-title="عربي">&nbsp;ع&nbsp;</li>
-              </ul>
-            </div>
-            <a href="portfolio.html">
-              <img id="portfolio_img" class="m-3" src="assets/folder-cyan.png" alt="portfolio" width="100" onmouseover="img_hover(this)" onmouseout="img_unhover(this)">
-            </a>
-            <p class="ms-4 fs-5 fw-bold ombre-text my-text-light">Portfolio</p>
-            <!-- <a href="portfolio.html" class="ms-3">Portfolio</a> -->
-            <!-- <div class="row">
-            </div> -->
-          </div>
-        </div>
-      </header>
-
-      <div class="row align-items-md-stretch">
-        <!-- ! *** Contact informations ***  -->
-        <div class="col-md-8">
-          <div class="p-2 mb-4 bg-light rounded-3 border my-ombre-cadre my-background">
-            <div class="container-fluid py-2">
-              <!-- En -->
-              <div class="l_en">
-                <h2 class="display-6 fw-bold my-text-titre ombre-text">Contact <span class="bi bi-person-fill"></span>
-                </h2>
-                <p class="col-md-12 fs-4"><span class="bi bi-geo-alt-fill pe-2" style="font-size: 120%;"></span> Cité 16
-                  logts CNAS bloc A n° 5, Bordj Bou Arréridj, <b>ALGERIA</b></p>
-                <p class="col-md-12 fs-4"><span class="bi bi-telephone-fill pe-2" style="font-size: 120%;"></span> +213
-                  (0)663739573 (WhatsApp) or +213 (0)792863550</p>
-                <p class="col-md-12 fs-4"><span class="bi bi-envelope-fill pe-2" style="font-size: 120%;"></span> <a
-                     href="mailto:mohamed.smati@yahoo.com">mohamed.smati@yahoo.com</a></p>
-                <p class="col-md-12 fs-4"><span class="bi bi-linkedin pe-2" style="font-size: 120%;"></span> <a
-                     href="https://www.linkedin.com/in/mohamed-smati-958aba5b"
-                     class="fs-5"> https://www.linkedin.com/in/mohamed-smati-958aba5b</a></p>
-              </div>
-              <!-- Fr -->
-              <div class="l_fr">
-                <h2 class="display-6 fw-bold my-text-titre ombre-text">Contact <span class="bi bi-person-fill"></span>
-                </h2>
-                <p class="col-md-12 fs-4"><span class="bi bi-geo-alt-fill pe-2" style="font-size: 120%;"></span> Cité 16
-                  logts CNAS bloc A n° 5, Bordj Bou Arréridj, <b>ALGERIE</b></p>
-                <p class="col-md-12 fs-4"><span class="bi bi-telephone-fill pe-2" style="font-size: 120%;"></span> +213
-                  (0)663739573 (WhatsApp) ou +213 (0)792863550</p>
-                <p class="col-md-12 fs-4"><span class="bi bi-envelope-fill pe-2" style="font-size: 120%;"></span> <a
-                     href="mailto:mohamed.smati@yahoo.com">mohamed.smati@yahoo.com</a></p>
-                <p class="col-md-12 fs-4"><span class="bi bi-linkedin pe-2" style="font-size: 120%;"></span> <a
-                     href="https://www.linkedin.com/in/mohamed-smati-958aba5b"
-                     class="fs-5">
-                    https://www.linkedin.com/in/mohamed-smati-958aba5b</a></p>
-              </div>
-              <!-- De -->
-              <div class="l_de">
-                <h2 class="display-6 fw-bold my-text-titre ombre-text">Kontakt <span class="bi bi-person-fill"></span>
-                </h2>
-                <p class="col-md-12 fs-4"><span class="bi bi-geo-alt-fill pe-2" style="font-size: 120%;"></span> Cité 16
-                  logts CNAS bloc A n° 5, Bordj Bou Arréridj, <b>ALGERIEN</b></p>
-                <p class="col-md-12 fs-4"><span class="bi bi-telephone-fill pe-2" style="font-size: 120%;"></span> +213
-                  (0)663739573 (WhatsApp) oder +213 (0)792863550</p>
-                <p class="col-md-12 fs-4"><span class="bi bi-envelope-fill pe-2" style="font-size: 120%;"></span> <a
-                     href="mailto:mohamed.smati@yahoo.com">mohamed.smati@yahoo.com</a></p>
-                <p class="col-md-12 fs-4"><span class="bi bi-linkedin pe-2" style="font-size: 120%;"></span> <a
-                     href="https://www.linkedin.com/in/mohamed-smati-958aba5b"
-                     class="fs-5">
-                    https://www.linkedin.com/in/mohamed-smati-958aba5b</a></p>
-              </div>
-              <!-- Ar -->
-              <div class="l_ar" dir="rtl">
-                <h2 class="display-6 fw-bold my-text-titre ombre-text">إتصال <span class="bi bi-person-fill"></span></h2>
-                <p class="col-md-12 fs-4"><span class="bi bi-geo-alt-fill pe-2" style="font-size: 120%;"></span> حي 16
-                  مسكن كناص عمارة أ رقم 5، برج بو عريريج ، <b>الجزائر</b></p>
-                <p class="col-md-12 fs-4"><span class="bi bi-telephone-fill pe-2" style="font-size: 120%;"></span>
-                  <span>+213 (0)663739573</span><span> (واتساب)</span><span> أو
-                  </span><span>+213 (0)792863550</span>
-                </p>
-                <p class="col-md-12 fs-4"><span class="bi bi-envelope-fill pe-2" style="font-size: 120%;"></span> <a
-                     href="mailto:mohamed.smati@yahoo.com">mohamed.smati@yahoo.com</a></p>
-                <p class="col-md-12 fs-4"><span class="bi bi-linkedin pe-2" style="font-size: 120%;"></span> <a
-                     href="https://www.linkedin.com/in/mohamed-smati-958aba5b"
-                     class="fs-5">
-                    https://www.linkedin.com/in/mohamed-smati-958aba5b</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- ! *** Languages ***  -->
-        <div class="col-md-4">
-          <div class="p-2 mb-4 bg-light rounded-3 border my-ombre-cadre my-background">
-            <div class="container-fluid py-2">
-              <!-- En -->
-              <div class="l_en">
-                <h2 class="display-6 fw-bold my-text-titre ombre-text">Languages <span class="bi bi-mic-fill"></span></h2>
-                <p class="fs-4"><b>English:</b> Good <meter value="0.6" class="ps-2" style="width: 25%;"></meter></p>
-                <p class="fs-4"><b>French:</b> Fluent <meter value="0.95" class="ps-2" style="width: 25%;"></meter></p>
-                <p class="fs-4"><b>Arabic:</b> Native tongue <meter value="1" class="ps-2"
-                         style="width: 25%;"></meter></p>
-                <p class="fs-4"><b>German:</b> Beginner <meter value="0.1" class="ps-2" style="width: 25%;"></meter></p>
-              </div>
-              <!-- Fr -->
-              <div class="l_fr">
-                <h2 class="display-6 fw-bold my-text-titre ombre-text">Langues <span class="bi bi-mic-fill"></span></h2>
-                <p class="fs-4"><b>Anglais:</b> Bien <meter value="0.6" class="ps-2" style="width: 25%;"></meter></p>
-                <p class="fs-4"><b>Français:</b> Couramment <meter value="0.95" class="ps-2"
-                         style="width: 25%;"></meter></p>
-                <p class="fs-4"><b>Arabe:</b> Langue natale <meter value="1" class="ps-2" style="width: 25%;"></meter>
-                </p>
-                <p class="fs-4"><b>Allemand:</b> Débutant <meter value="0.1" class="ps-2" style="width: 25%;"></meter>
-                </p>
-              </div>
-              <!-- De -->
-              <div class="l_de">
-                <h2 class="display-6 fw-bold my-text-titre ombre-text">Sprachen <span class="bi bi-mic-fill"></span></h2>
-                <p class="fs-4"><b>Englisch:</b> Gut <meter value="0.6" class="ps-2" style="width: 25%;"></meter></p>
-                <p class="fs-4"><b>Französisch:</b> Fließend <meter value="0.95" class="ps-2"
-                         style="width: 25%;"></meter></p>
-                <p class="fs-4"><b>Arabisch:</b> Muttersprache<meter value="1"
-                         style="width: 25%;"></meter></p>
-                <p class="fs-4"><b>Deutsch:</b> Anfänger <meter value="0.1" class="ps-2" style="width: 25%;"></meter>
-                </p>
-              </div>
-              <!-- Ar -->
-              <div class="l_ar" dir="rtl">
-                <h2 class="display-6 fw-bold my-text-titre ombre-text">اللغات <span class="bi bi-mic-fill"></span></h2>
-                <p class="fs-4"><b>إنجليزي:</b> حسن <meter value="0.6" class="ps-2" style="width: 25%;"></meter></p>
-                <p class="fs-4"><b>فرنسي:</b> بطلاقة <meter value="0.95" class="ps-2" style="width: 25%;"></meter></p>
-                <p class="fs-4"><b>عربي:</b> اللغة الأم <meter value="1" class="ps-2"
-                         style="width: 25%;"></meter></p>
-                <p class="fs-4"><b>ألماني:</b> مبتدأ <meter value="0.1" class="ps-2" style="width: 25%;"></meter></p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- ! *** Summary ***  -->
-      <div class="row align-items-md-stretch">
-        <div class="col-md-6">
-          <div class="h-100 fs-4 p-4 text-white bg-dark rounded-3 my-ombre-cadre-2 my-background-2">
-            <!-- En -->
-            <div class="l_en">
-              <h2 class="ombre-text-dark">Summary <span class="bi bi-list-columns-reverse"></span></h2>
-              <p class="fs-4">I have a long and diversified experience in IT, especially in application development.
-                Development is more than a job for me it is a pleasure.</p>
-              <p class="fs-4">I am serious, intelligent and meticulous; I learn quickly and fit in easily with a group.
-              </p>
-              <p class="fs-4">My intelligence and my experience allow me to find quick and smart solutions.</p>
-              <p class="fs-4">I may be a bit old but I am young in spirit and I always carry the will to do my job
-                perfectly.</p>
-            </div>
-            <!-- Fr -->
-            <div class="l_fr">
-              <h2 class="ombre-text-dark">Résumé <span class="bi bi-list-columns-reverse"></span></h2>
-              <p class="fs-4">J’ai une longue et diversifiée expérience en informatique, notamment en développement
-                d’applications. Le développement est plus qu’un travail pour moi, c’est un plaisir.</p>
-              <p class="fs-4">Je suis sérieux, intelligent et méticuleux ; j’apprends vite et peux travailler aussi bien
-                solo qu'en groupe.</p>
-              <p class="fs-4">Mon intelligence et mon expérience me permettent de trouver des solutions rapides et
-                intelligentes.</p>
-              <p class="fs-4">Je suis peut-être un peu âgé mais je suis jeune d'esprit et je porte toujours en moi la
-                volonté de faire mon travail de façon parfaite.</p>
-            </div>
-            <!-- De -->
-            <div class="l_de">
-              <h2 class="ombre-text-dark">Zusammenfassung <span class="bi bi-list-columns-reverse"></span></h2>
-              <p class="fs-4">Ich verfüge über eine langjährige und vielfältige Erfahrung in der IT, insbesondere in der
-                Anwendungsentwicklung. Entwicklung ist für mich mehr als ein Job, es ist mir ein Vergnügen.</p>
-              <p class="fs-4">Ich bin ernst, intelligent und akribisch; Ich lerne schnell und passe mich leicht einer
-                Gruppe an.</p>
-              <p class="fs-4">Meine Intelligenz und meine Erfahrung ermöglichen es mir, schnelle und intelligente
-                Lösungen zu finden.</p>
-              <p class="fs-4">Ich bin vielleicht ein bisschen alt, aber ich bin jung im Geiste und habe immer den
-                Willen, meine Arbeit perfekt zu machen.</p>
-            </div>
-            <!-- Ar -->
-            <div class="l_ar" dir="rtl">
-              <h1 class="ombre-text-dark">ملخص <span class="bi bi-list-columns-reverse"></span></h1>
-              <p class="fs-3">لدي خبرة طويلة في مجال تكنولوجيا المعلومات، وخاصة في تطوير التطبيقات. تطوير التطبيقات هو
-                أكثر من مجرد وظيفة بالنسبة لي، إنه هواية.</p>
-              <p class="fs-3">انا جاد وذكي ودقيق؛ أتعلم بسرعة وأنسجم بسهولة في مجموعة.</p>
-              <p class="fs-3">ذكائي وتجربتي تسمح لي بإيجاد حلول سريعة وذكية.</p>
-              <p class="fs-3">قد أكون كبيرًا في السن نوعا ما ولكني شاب في روحي ولدي دائمًا الإرادة القوية للقيام بعملي
-                على أكمل وجه.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- ! *** Skills ***  -->
-        <div class="col-md-6">
-          <div class="h-100 fs-4 p-4 bg-light border rounded-3 my-ombre-cadre my-background">
-            <!-- En -->
-            <div class="l_en">
-              <h2 class="my-text-titre display-6 fw-bold ombre-text">Skills <span class="bi bi-keyboard-fill"></span><span
-                      class="bi bi-mouse2-fill"></span></h2>
-            </div>
-            <!-- Fr -->
-            <div class="l_fr">
-              <h2 class="my-text-titre display-6 fw-bold ombre-text">Compétences <span
-                      class="bi bi-keyboard-fill"></span><span class="bi bi-mouse2-fill"></span></h2>
-            </div>
-            <!-- De -->
-            <div class="l_de">
-              <h2 class="my-text-titre display-6 fw-bold ombre-text">Fähigkeiten <span
-                      class="bi bi-keyboard-fill"></span><span class="bi bi-mouse2-fill"></span></h2>
-            </div>
-            <!-- Ar -->
-            <div class="l_ar" dir="rtl">
-              <h2 class="my-text-titre display-6 fw-bold ombre-text">مهارات <span class="bi bi-keyboard-fill"></span><span
-                      class="bi bi-mouse2-fill"></span></h2>
-            </div>
+          <!-- <li class="dropdown"><a href="#"> <img src="assets/img/En.png" alt="" width="30px"> <span>&nbsp;En</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <!-- En -->
-              <div class="l_en">
-                <li><b>Web & desktop development</b></li>
-              </div>
-              <!-- Fr -->
-              <div class="l_fr">
-                <li><b>Développement web & de bureau</b></li>
-              </div>
-              <!-- De -->
-              <div class="l_de">
-                <li><b>Web- und Desktop-Entwicklung</b></li>
-              </div>
-              <!-- Ar -->
-              <div class="l_ar">
-                <li><b>برمجة الويب و البرمجة المكتبية</b></li>
-              </div>
-
-              <li><b>Python</b>, <b>Django</b>, <b>Flask</b></li>
-              <li><b>HTML5</b>, <b>CSS3</b>, <b>Bootstrap5</b></li>
-              <li><b>JavaScript</b>, <b>jQuery</b></li>
-
-              <!-- En -->
-              <div class="l_en">
-                <li><b>REST-API and web-services, XHR / Fetch, XML, JSON</b></li>
-              </div>
-              <!-- Fr -->
-              <div class="l_fr">
-                <li><b>REST-API et services web, XHR / Fetch, XML, JSON</b></li>
-              </div>
-              <!-- De -->
-              <div class="l_de">
-                <li><b>REST-API und Webservices, XHR / Fetch, XML, JSON</b></li>
-              </div>
-              <!-- Ar -->
-              <div class="l_ar">
-                <li><b>REST-API and web-services, XHR / Fetch, XML, JSON</b></li>
-              </div>
-
-              <li><b>SQL, PL/SQL</b></li>
-
-              <!-- En -->
-              <div class="l_en">
-                <li><b>Databases: Oracle, MySQL/MariaDB, PostgreSQL, MongoDB (noSQL)</b></li>
-              </div>
-              <!-- Fr -->
-              <div class="l_fr">
-                <li><b>Bases de données: Oracle, MySQL/MariaDB, PostgreSQL, MongoDB (noSQL)</b></li>
-              </div>
-              <!-- De -->
-              <div class="l_de">
-                <li><b>Datenbanken: Oracle, MySQL/MariaDB, PostgreSQL, MongoDB (noSQL)</b></li>
-              </div>
-              <!-- Ar -->
-              <div class="l_ar">
-                <li><b>قواعد بيانات: Oracle, MySQL/MariaDB, PostgreSQL, MongoDB (noSQL)</b></li>
-              </div>
-
-              <li><b>Git</b></li>
-
-              <!-- En -->
-              <div class="l_en">
-                <li><b>Java (medium)</b></li>
-              </div>
-              <!-- Fr -->
-              <div class="l_fr">
-                <li><b>Java (moyen)</b></li>
-              </div>
-              <!-- De -->
-              <div class="l_de">
-                <li><b>Java (Mittel)</b></li>
-              </div>
-              <!-- Ar -->
-              <div class="l_ar">
-                <li><b>Java (متوسط)</b></li>
-              </div>
-
-              <li><b>Delphi (Oriented Object Pascal)</b></li>
+              <li><a href="#">English &nbsp; <img src="assets/img/En.png" alt="" width="30px"></a></li>
+              <li><a href="#">French &nbsp; <img src="assets/img/Fr.png" alt="" width="30px"></a></li>
+              <li><a href="#">Deutsch &nbsp; <img src="assets/img/De.png" alt="" width="30px"></a></li>
+              <li><a href="#">Arabic &nbsp; <img src="assets/img/Ar.png" alt="" width="30px"></a></li>
             </ul>
-          </div>
-        </div>
-      </div>
+          </li> -->
 
-      <br>
+          <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li> -->
+          <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
 
-      <!-- ! *** Experience ***  -->
-      <div class="row align-items-md-stretch">
-        <div class="col-md-6">
-          <div class="h-100 p-4 bg-light border rounded-3 my-ombre-cadre my-background">
-            <!-- En -->
-            <div class="l_en">
-              <h2 class="display-6 fw-bold my-text-titre ombre-text">Experience <span class="bi bi-building"></span></h2>
-              <h4>Deputy Director of I.T - 01/2000 to Current</h4>
-              <h5>C.N.A.S, Bordj Bou Arreridj, ALGERIA</h5>
-              <ul>
-                <li>Develop applications (web and desktop)</li>
-                <li>Ensure the deployment of IT solutions</li>
-                <li>Provide statistics</li>
-                <li>Guarantee the availability of network infrastructures</li>
-                <li>Guarantee the security of data and equipment</li>
-                <li>Manage and guide technical staff</li>
-              </ul>
-
-              <h4>Engineer - 09/1994 to 12/1999</h4>
-              <h5>COSPARK, Bordj Bou Arreridj, ALGERIA</h5>
-              <ul>
-                <li>Create software solutions</li>
-                <li>Training</li>
-              </ul>
-
-              <h4>Engineer - 04/1992 to 08/1993</h4>
-              <h5>E.N.S.P, Hassi Messaoud – Ouargla, ALGERIA</h5>
-              <ul>
-                <li>Create software solutions</li>
-              </ul>
-            </div>
-            <!-- Fr -->
-            <div class="l_fr">
-              <h2 class="display-6 fw-bold my-text-titre ombre-text">Expérience <span class="bi bi-building"></span></h2>
-              <h4>Sous-Directeur de l'informatique - 01/2000 à ce jour</h4>
-              <h5>C.N.A.S, Bordj Bou Arréridj, ALGERIE</h5>
-              <ul>
-                <li>Développer des applications (web et de bureau)</li>
-                <li>Assurer le déploiement des solutions informatiques</li>
-                <li>Fournir des statistiques</li>
-                <li>Garantir la disponibilité des infrastructures réseaux</li>
-                <li>Garantir la sécurité des données et équipements</li>
-                <li>Gérer et orienter le personnel technique</li>
-              </ul>
-
-              <h4>Ingénieur - 09/1994 à 12/1999</h4>
-              <h5>COSPARK, Bordj Bou Arréridj, ALGERIE</h5>
-              <ul>
-                <li>Créer des solutions logicielles</li>
-                <li>Formation</li>
-              </ul>
-
-              <h4>Ingénieur - 04/1992 à 08/1993</h4>
-              <h5>E.N.S.P, Hassi Messaoud – Ouargla, ALGERIE</h5>
-              <ul>
-                <li>Créer des solutions logicielles</li>
-              </ul>
-            </div>
-            <!-- De -->
-            <div class="l_de">
-              <h2 class="display-6 fw-bold my-text-titre ombre-text">Erfahrung <span class="bi bi-building"></span></h2>
-              <h4>Stellvertretender Direktor von I.T - 01/2000 bis Aktuell</h4>
-              <h5>C.N.A.S, Bordj Bou Arreridj, ALGERIEN</h5>
-              <ul>
-                <li>Anwendungen entwickeln (Web und Desktop)</li>
-                <li>Stellen Sie den Einsatz von IT-Lösungen sicher</li>
-                <li>Statistiken bereitstellen</li>
-                <li>Gewährleistung der Verfügbarkeit von Netzwerkinfrastrukturen</li>
-                <li>Gewährleistung der Sicherheit von Daten und Geräten</li>
-                <li>Führen und führen Sie technisches Personal</li>
-              </ul>
-
-              <h4>Ingenieur - 09/1994 bis 12/1999</h4>
-              <h5>COSPARK, Bordj Bou Arreridj, ALGERIEN</h5>
-              <ul>
-                <li>Erstellen Sie Softwarelösungen</li>
-                <li>Ausbildung</li>
-              </ul>
-
-              <h4>Ingenieur - 04/1992 bis 08/1993</h4>
-              <h5>E.N.S.P, Hassi Messaoud – Ouargla, ALGERIEN</h5>
-              <ul>
-                <li>Erstellen Sie Softwarelösungen</li>
-              </ul>
-            </div>
-            <!-- Ar -->
-            <div class="l_ar" dir="rtl">
-              <h2 class="display-6 fw-bold my-text-titre ombre-text">خبرة <span class="bi bi-building"></span></h2>
-              <h3>مدير فرعي تكنولوجيا المعلومات - 01/2000 حتى الآن</h3>
-              <h4>ص.و.ت.إ ، برج بوعريريج ، الجزائر</h4>
-              <ul>
-                <li>تطوير التطبيقات (الويب وسطح المكتب)</li>
-                <li>ضمان نشر حلول تكنولوجيا المعلومات</li>
-                <li>توفير الإحصائيات</li>
-                <li>ضمان توافر البنية التحتية للشبكة</li>
-                <li>ضمان أمن البيانات والمعدات</li>
-                <li>إدارة وتوجيه الموظفين الفنيين</li>
-              </ul>
-
-              <h3>مهندس - 09/1994 الى 12/1999
-              </h3>
-              <h4>كوسبارك ، برج بوعريريج ، الجزائر</h4>
-              <ul>
-                <li>إنشاء حلول برمجية</li>
-                <li>تكوين</li>
-              </ul>
-
-              <h3>مهندس - 04/1992 إلى 08/1993
-              </h3>
-              <h4>ش.و.خ.أ، حاسي مسعود - ورقلة، الجزائر</h4>
-              <ul>
-                <li>إنشاء حلول برمجية</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <!-- ! *** Education ***  -->
-        <div class="col-md-6">
-          <div class="h-100 p-4 bg-light border rounded-3 my-ombre-cadre my-background">
-            <!-- En -->
-            <div class="l_en">
-              <h2 class="display-6 fw-bold my-text-titre ombre-text">Education <span
-                      class="bi bi-mortarboard-fill"></span></h2>
-              <h4>MASTER, NETWORK & MULTIMEDIA – 2014</h4>
-              <h6>BACHIR ELIBRAHIMI University, Bordj Bou Arreridj</h6>
-              <h6>Thesis: “VANETS: ROUTING PROTOCOLS AND APPLICATIONS”</h6><br>
-
-              <h4>ENGINEER, HARDWARE & SOFTWARE – 1991</h4>
-              <h6>MENTOURI University, Constantine</h6><br>
-            </div>
-            <!-- Fr -->
-            <div class="l_fr">
-              <h2 class="display-6 fw-bold my-text-titre ombre-text">Formation <span
-                      class="bi bi-mortarboard-fill"></span></h2>
-              <h4>MASTER, RESEAU ET MULTIMEDIA – 2014</h4>
-              <h6>Université BACHIR ELIBRAHIMI, Bordj Bou Arréridj</h6>
-              <h6>Thèse: “VANETS: ROUTING PROTOCOLS AND APPLICATIONS”</h6><br>
-
-              <h4>INGENIORAT, MATERIEL & LOGICIEL – 1991</h4>
-              <h6>Université MENTOURI, Constantine</h6><br>
-            </div>
-            <!-- De -->
-            <div class="l_de">
-              <h2 class="display-6 fw-bold my-text-titre ombre-text">Ausbildung <span
-                      class="bi bi-mortarboard-fill"></span></h2>
-              <h4>MASTER, NETZ & MULTIMEDIA – 2014</h4>
-              <h6>BACHIR ELIBRAHIMI Universität, Bordj Bou Arreridj</h6>
-              <h6>These: “VANETS: ROUTING PROTOCOLS AND APPLICATIONS”</h6><br>
-
-              <h4>INGENIEUR, HARDWARE & SOFTWARE – 1991</h4>
-              <h6>MENTOURI-Universität, Konstantin</h6><br>
-            </div>
-            <!-- Ar -->
-            <div class="l_ar" dir="rtl">
-              <h2 class="display-6 fw-bold my-text-titre ombre-text">تكوين <span class="bi bi-mortarboard-fill"></span>
-              </h2>
-              <h3>ماستر ، شبكة ووسائط متعددة - 2014</h3>
-              <h5>جامعة البشير الإبراهيمي برج بوعريريج</h5>
-              <h5>الأطروحة: "VANETS: ROUTING PROTOCOLS AND APPLICATIONS"</h5><br>
-
-              <h3>مهندس ، الأجهزة والبرامج - 1991</h3>
-              <h5>جامعة منتوري ، قسنطينة</h5><br>
-            </div>
-
-            <br>
-
-            <!-- ! *** Scientific publication ***  -->
-            <!-- En -->
-            <div class="l_en">
-              <h2 class="my-text-titre ombre-text-petit">Scientific publication</h2>
-              <p class="fs-5">Collaborator in a scientific publication whose title is "A cross layer approach for
-                efficient multimedia data dissemination in VANETs".</p>
-            </div>
-            <!-- Fr -->
-            <div class="l_fr">
-              <h2 class="my-text-titre ombre-text-petit">Publication scientifique</h2>
-              <p class="fs-5">Collaborateur dans une publication scientifique dont le titre est “A cross layer approach
-                for efficient multimedia data dissemination in VANETs”.</p>
-            </div>
-            <!-- De -->
-            <div class="l_de">
-              <h2 class="my-text-titre ombre-text-petit">Wissenschaftliche Veröffentlichung</h2>
-              <p class="fs-5">Mitarbeit an einer wissenschaftlichen Publikation mit dem Titel "A cross layer approach
-                for efficiency multimedia data dissemination in VANETs".</p>
-            </div>
-            <!-- Ar -->
-            <div class="l_ar" dir="rtl">
-              <h2 class="my-text-titre ombre-text-petit">النشر العلمي</h2>
-              <p class="fs-5">مساهم في منشور علمي بعنوان "A cross layer approach for efficient multimedia data
-                dissemination in VANETs".</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- ! *** footer ***  -->
-      <footer class="pt-3 mt-4 my-text-light border-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-4">
-              &copy; 2021
-            </div>
-            <div class="col-4 text-center">
-              <!-- En -->
-              <span class="l_in_en">Visitor n° </span>
-              <!-- Fr -->
-              <span class="l_in_fr">Visiteur n° </span>
-              <!-- De -->
-              <span class="l_in_de">Besucher-Nr </span>
-              <!-- Default Statcounter code for Smatimed sur GitHub
-  https://smatimed.github.io/website -->
-              <script type="text/javascript">
-                // if (window.location.origin != 'file://') {
-                var sc_project = 11060249;
-                var sc_invisible = 0;
-                var sc_security = "e34a2ea7";
-                var scJsHost = "https://";
-                document.write("<sc" + "ript type='text/javascript' src='" +
-                  scJsHost +
-                  "statcounter.com/counter/counter.js'></" + "script>");
-                // };
-              </script>
-              <noscript>
-                <div class="statcounter"><a title="Web Analytics
-  Made Easy - Statcounter" href="https://statcounter.com/" target="_blank"><img class="statcounter"
-                         src="https://c.statcounter.com/11060249/0/e34a2ea7/0/"
-                         alt="Web Analytics Made Easy - Statcounter"
-                         referrerPolicy="no-referrer-when-downgrade"></a></div>
-              </noscript>
-              <!-- End of Statcounter Code -->
-              <!-- Ar -->
-              <span class="l_in_ar" dir="rtl">زائر رقم</span>
-
-            </div>
-            <!-- <div class="col-4">
-              <a style="float:right" href="#top"><img src="assets/navigation_black_24dp.svg" alt="">
-            </div> -->
-          </div>
-        </div>
-      </footer>
     </div>
-  </main>
-
-  <script src="assets/gotopbutton.js"></script>
-
-  <script>
-    // //Get the GoTop button
-    // var theGoTopButton = document.getElementById("theGoTopBtn");
-
-    // // When the user scrolls down 100px from the top of the document, show the button
-    // window.onscroll = function () { scrollFunction() };
-
-    // function scrollFunction() {
-    //   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    //     theGoTopButton.style.display = "block";
-    //   } else {
-    //     theGoTopButton.style.display = "none";
-    //   }
-    // }
+  </header><!-- End Header -->
 
 
-    // switching between languages
-    var french = document.getElementById('fr_click'),
-      english = document.getElementById('en_click'),
-      german = document.getElementById('de_click'),
-      arabic = document.getElementById('ar_click'),
-      fr_txt = document.querySelectorAll('.l_fr'),
-      en_txt = document.querySelectorAll('.l_en'),
-      de_txt = document.querySelectorAll('.l_de'),
-      ar_txt = document.querySelectorAll('.l_ar'),
-      nb_fr = fr_txt.length,
-      nb_en = en_txt.length,
-      nb_de = de_txt.length,
-      nb_ar = ar_txt.length,
-      fr_in_txt = document.querySelectorAll('.l_in_fr'),
-      en_in_txt = document.querySelectorAll('.l_in_en'),
-      de_in_txt = document.querySelectorAll('.l_in_de'),
-      ar_in_txt = document.querySelectorAll('.l_in_ar'),
-      nb_in_fr = fr_in_txt.length,
-      nb_in_en = en_in_txt.length,
-      nb_in_de = de_in_txt.length,
-      nb_in_ar = ar_in_txt.length;
 
-    french.addEventListener('click', function () {
-      langue(french, english, german, arabic);
-    }, false);
+  <!-- * ========================================================= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.png)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="hero-title mb-4" style="text-align: left;">Mohamed Smati</h1>
+          <p class="hero-subtitle" style="text-align: left;"><span class="typed" data-typed-items="Full stack Developer, Engineer since 1991, MASTER's graduate since 2014"></span></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- End Hero Section -->
 
-    english.addEventListener('click', function () {
-      langue(english, french, german, arabic);
-    }, false);
 
-    german.addEventListener('click', function () {
-      langue(german, french, english, arabic);
-    }, false);
+  <main id="main">
 
-    arabic.addEventListener('click', function () {
-      langue(arabic, english, german, french);
-    }, false);
 
-    function langue(langueOn, langueOff, langue2Off, langue3Off) {
-      if (!langueOn.classList.contains('current_lang')) {
-        langueOn.classList.add('current_lang');
-        langueOff.classList.remove('current_lang');
-        langue2Off.classList.remove('current_lang');
-        langue3Off.classList.remove('current_lang');
-      }
-      if (langueOn.innerHTML == 'Fr') {
-        afficher(fr_txt, nb_fr);
-        afficher_in(fr_in_txt, nb_in_fr);
-        cacher(en_txt, nb_en);
-        cacher(en_in_txt, nb_in_en);
-        cacher(de_txt, nb_de);
-        cacher(de_in_txt, nb_in_de);
-        cacher(ar_txt, nb_ar);
-        cacher(ar_in_txt, nb_in_ar);
-        document.getElementsByTagName("html")[0].setAttribute("lang", "fr");
-      }
-      else if (langueOn.innerHTML == 'En') {
-        afficher(en_txt, nb_en);
-        afficher_in(en_in_txt, nb_in_en);
-        cacher(fr_txt, nb_fr);
-        cacher(fr_in_txt, nb_in_fr);
-        cacher(de_txt, nb_de);
-        cacher(de_in_txt, nb_in_de);
-        cacher(ar_txt, nb_ar);
-        cacher(ar_in_txt, nb_in_ar);
-        document.getElementsByTagName("html")[0].setAttribute("lang", "en");
-      }
-      else if (langueOn.innerHTML == 'De') {
-        afficher(de_txt, nb_de);
-        afficher_in(de_in_txt, nb_in_de);
-        cacher(fr_txt, nb_fr);
-        cacher(fr_in_txt, nb_in_fr);
-        cacher(en_txt, nb_en);
-        cacher(en_in_txt, nb_in_en);
-        cacher(ar_txt, nb_ar);
-        cacher(ar_in_txt, nb_in_ar);
-        document.getElementsByTagName("html")[0].setAttribute("lang", "de");
-      }
-      else if (langueOn.innerHTML == '&nbsp;ع&nbsp;') {
-        afficher(ar_txt, nb_ar);
-        afficher_in(ar_in_txt, nb_in_ar);
-        cacher(fr_txt, nb_fr);
-        cacher(fr_in_txt, nb_in_fr);
-        cacher(en_txt, nb_en);
-        cacher(en_in_txt, nb_in_en);
-        cacher(de_txt, nb_de);
-        cacher(de_in_txt, nb_in_de);
-        document.getElementsByTagName("html")[0].setAttribute("lang", "ar");
-      };
-    }
+    <!-- * ========================================================= About Section ======= -->
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
 
-    function afficher(txt, nb) {
-      for (var i = 0; i < nb; i++) {
-        txt[i].style.display = 'block';
-      }
-    }
-    function afficher_in(txt, nb) {
-      for (var i = 0; i < nb; i++) {
-        txt[i].style.display = 'inline';
-      }
-    }
-    function cacher(txt, nb) {
-      for (var i = 0; i < nb; i++) {
-        txt[i].style.display = 'none';
-      }
-    }
-    function init() {
-      langue(english, french, german, arabic);
-    }
-    init();        
-  </script>
+              <div class="row">
 
-  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                        <img src="assets/img/Me.png" class="img-fluid rounded b-shadow-a" alt="">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-7">
+                      <div class="about-info mt-3 list-ico" style="overflow-wrap: break-word;">
+                        <!-- <p><span class="title-s">Profile: </span> <span>Full stack developer</span></p> -->
+                        <p><span class="bi bi-envelope-fill pe-2" style="font-size: 120%;"></span> <a href="mailto:mohamed.smati@yahoo.com">mohamed.smati@yahoo.com</a>
+                        </p>
+                        <p><span class="bi bi-telephone-fill pe-2" style="font-size: 120%;"></span>(+213) 663739573 (WhatsApp)
+                        </p>
+                        <p><span class="bi bi-geo-alt-fill pe-2" style="font-size: 120%;"></span>Bordj Bou Arreridj, Algeria
+                        </p>
+                        <p><span class="bi bi-linkedin pe-2" style="font-size: 120%;"></span><a href="https://www.linkedin.com/in/mohamed-smati-958aba5b" target="_blank">www.linkedin.com/in/mohamed-smati-958aba5b <span class="bi bi-link-45deg text-warning"></span></a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
 
-  <script>
-    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-      return new bootstrap.Tooltip(tooltipTriggerEl)
-    })
+                </div>
 
-    function img_hover(element) {
-      element.setAttribute('src', "assets/folder-open-cyan.png");
-    }
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        About me
+                      </h5>
+                    </div>
+                    <p class="lead">
+                      I have a <strong>long</strong> and <strong>diversified experience</strong> in IT, especially in application development. Development is more than a job for me it is a pleasure.
+                    </p>
+                    <p class="lead">
+                      I am <strong>serious</strong>, <strong>intelligent</strong> and <strong>meticulous</strong>; I <strong>learn quickly</strong> and fit in easily with a group.
+                      My intelligence and my experience allow me to <strong>find quick and smart</strong> solutions.
+                    </p>
+                    <p class="lead">
+                      I may be a bit old but I am <strong>young in spirit</strong> and I always carry the will to do my job perfectly.
+                    </p>
+                  </div>
+                </div>
 
-    function img_unhover(element) {
-      element.setAttribute('src', "assets/folder-cyan.png");
-    }
-  </script>
+              </div>
+
+              <!-- * LANGUAGES -->
+              <div class="skill-mf">
+                <!-- <p class="title-s">Languages <span class="bi bi-mic-fill"></span></p> -->
+                <h4 class="mb-3">
+                  Languages <span class="bi bi-mic-fill"></span>
+                </h4>
+
+                <div class="row">
+                  <div class="col-sm-6 col-md-3">
+                    <span><b>English</b></span> <span class="pull-right"> : Good</span>
+                    <div class="progress">
+                      <div class="progress-bar-lang" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-3">
+                    <span><b>French</b></span> <span class="pull-right"> : Fluent</span>
+                    <div class="progress">
+                      <div class="progress-bar-lang" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-3">
+                    <span><b>Arabic</b></span> <span class="pull-right"> : Native tongue</span>
+                    <div class="progress">
+                      <div class="progress-bar-lang" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-md-3">
+                    <span><b>German</b></span> <span class="pull-right"> : Beginner</span>
+                    <div class="progress">
+                      <div class="progress-bar-lang" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div>
+    </section><!-- End About Section -->
+
+
+
+
+
+    <!-- * ========================================================= Skills Section ======= -->
+    <section id="skills" class="services-mf pt-5 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Skills
+              </h3>
+              <!-- <p class="subtitle-a">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p> -->
+
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-mf">
+          <div class="row">
+            <div class="col-sm-6 col-md-4">
+
+              <span>Python</span> <span class="pull-right"></span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <span>Django , Flask</span> <span class="pull-right"></span>
+              <div class="progress">
+                <div class="progress-bar2" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <span>REST-API (web-services) </span> <span class="pull-right"></span>
+              <div class="progress">
+                <div class="progress-bar2" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <span>HTML 5</span> <span class="pull-right"></span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <span>CSS 3</span> <span class="pull-right"></span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <span>Bootstrap 5 </span> <span class="pull-right"></span>
+              <div class="progress">
+                <div class="progress-bar2" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <span>SASS </span> <span class="pull-right"></span>
+              <div class="progress">
+                <div class="progress-bar2" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+
+              <span>JavaScript , Typescript</span> <span class="pull-right"></span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <span>jQuery </span> <span class="pull-right"></span>
+              <div class="progress">
+                <div class="progress-bar2" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <span>XHR / Fetch, XML, JSON </span> <span class="pull-right"></span>
+              <div class="progress">
+                <div class="progress-bar2" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <span>Databases</span> <span class="pull-right"></span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <span>Oracle </span> <span class="pull-right"></span>
+              <div class="progress">
+                <div class="progress-bar2" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <span>MySQL / MariaDB , PostgreSQL , SQLite3</span> <span class="pull-right"></span>
+              <div class="progress">
+                <div class="progress-bar2" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <span>MongoDB (noSQL) </span> <span class="pull-right"></span>
+              <div class="progress">
+                <div class="progress-bar2" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+
+              <span>SQL, PL/SQL </span> <span class="pull-right"></span>
+              <div class="progress">
+                <div class="progress-bar2" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <span>Git </span> <span class="pull-right"></span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <span>Java </span> <span class="pull-right"></span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <span>Delphi (Oriented Object Pascal) </span> <span class="pull-right"></span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Skills Section -->
+
+
+
+
+    <!-- * ========================================================= Experience & Education Section ======= -->
+    <section id="experience-education" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+
+              <div class="row">
+
+                <!-- * EXPERIENCE -->
+                <div class="col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      Experience <span class="bi bi-building"></span>
+                    </h5>
+                  </div>
+
+                  <h5 class="text-primary">Deputy Director of I.T - 01/2000 to Current</h5>
+                  <h5><a href="https://cnas.dz/fr/" target="_blank">C.N.A.S <span class="bi bi-link-45deg text-warning"></span></a>, Bordj Bou Arreridj, ALGERIA</h5>
+                  <h6>(National Social Insurance Fund for Salaried Workers)</h6>
+                  <ul>
+                    <li>Develop applications (web and desktop)</li>
+                    <li>Ensure the deployment of IT solutions</li>
+                    <li>Provide statistics</li>
+                    <li>Guarantee the availability of network infrastructures</li>
+                    <li>Guarantee the security of data and equipment</li>
+                    <li>Manage and guide technical staff</li>
+                  </ul>
+
+                  <h5 class="text-primary">Engineer - 09/1994 to 12/1999</h5>
+                  <h5><a href="https://www.cosparck.com/" target="_blank">COSPARK <span class="bi bi-link-45deg text-warning"></span></a>, Bordj Bou Arreridj, ALGERIA</h5>
+                  <ul>
+                    <li>Create software solutions</li>
+                    <li>Training</li>
+                  </ul>
+
+                  <h5 class="text-primary">Engineer - 04/1992 to 08/1993</h5>
+                  <h5>E.N.S.P, Hassi Messaoud – Ouargla, ALGERIA</h5>
+                  <ul>
+                    <li>Create software solutions</li>
+                  </ul>
+
+                </div>
+
+                <!-- * EDUCATION -->
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        Education <span class="bi bi-mortarboard-fill"></span>
+                      </h5>
+                    </div>
+
+                    <h5 class="text-primary">MASTER, Network & Multimedia – 2014</h5>
+                    <h5><a href="https://www.univ-bba.dz/index.php/en/" target="_blank">Bachir Elibrahimi University <span class="bi bi-link-45deg text-warning"></span></a>, Bordj Bou Arreridj, Algeria</h5>
+                    <h6>Thesis: “VANETS: ROUTING PROTOCOLS AND APPLICATIONS”</h6><br>
+
+                    <h5 class="text-primary">ENGINEER, Hardware & Software – 1991</h5>
+                    <h5><a href="https://www.umc.edu.dz/index.php/en" target="_blank">Mentouri University <span class="bi bi-link-45deg text-warning"></span></a>, Constantine, Algeria</h5><br>
+
+                    <div class="title-box-2 mt-3">
+                      <h5 class="title-left">Scientific publication</h5>
+                    </div>
+                    <p class="fs-6">Collaborator in a scientific publication whose title is <a href="https://www.sciencedirect.com/science/article/abs/pii/S221420961730030X" target="_blank" class="fw-bold">"A cross layer approach for efficient multimedia data dissemination in VANETs" <span class="bi bi-link-45deg text-warning"></span></a>.</p>
+
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div>
+    </section><!-- End Experience & Education Section -->
+
+
+
+
+    <!-- ======= Services Section ======= -->
+    <!-- <section id="services" class="services-mf pt-5 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Services
+              </h3>
+              <p class="subtitle-a">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Web Design</h2>
+                <p class="s-description text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                  provident vitae! Magni
+                  tempora perferendis eum non provident.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Web Development</h2>
+                <p class="s-description text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                  provident vitae! Magni
+                  tempora perferendis eum non provident.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Photography</h2>
+                <p class="s-description text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                  provident vitae! Magni
+                  tempora perferendis eum non provident.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Responsive Design</h2>
+                <p class="s-description text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                  provident vitae! Magni
+                  tempora perferendis eum non provident.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Graphic Design</h2>
+                <p class="s-description text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                  provident vitae! Magni
+                  tempora perferendis eum non provident.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-calendar4-week"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Marketing Services</h2>
+                <p class="s-description text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                  provident vitae! Magni
+                  tempora perferendis eum non provident.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- End Services Section -->
+
+
+    <!-- * ========================================================= Counter Section ======= -->
+    <!-- <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)"> -->
+    <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/hero-bg.png)">
+      <div class="overlay-mf"></div>
+      <div class="container position-relative">
+        <div class="row">
+
+          <div class="col-sm-6 col-lg-6">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-building"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">YEARS OF EXPERIENCE</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-6">
+            <div class="counter-box counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-check"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">NEW WORKS COMPLETED WITH MODERN LANGUAGES</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-people"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="550" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">TOTAL CLIENTS</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-award"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="counter purecounter"></p>
+                <span class="counter-text">AWARD WON</span>
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+    <!-- End Counter Section -->
+
+
+    <!-- * ========================================================= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Portfolio
+              </h3>
+              <p class="subtitle-a">
+                Here are some new and old projects (for illustration purposes) that I have realized showing the mastery of the technologies used.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <!-- * work 1 : gestion de stock -->
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-1.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <!-- <div class="col-sm-8"> -->
+                  <div class="col-sm-10">
+                    <h2 class="w-title">Inventory Management</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Development</span> / <span class="w-date">2022</span>
+                    </div>
+                  </div>
+                  <!-- <div class="col-sm-4"> -->
+                  <div class="col-sm-2">
+                    <div class="w-like">
+                      <a href="portfolio-details-work1.html" class="bouton-cercle d-flex align-items-center justify-content-center"><span class="bi bi-plus-lg" style="font-size: 2rem;"></span></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion accordion-flush" id="accordionFlush-1">
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-1" aria-expanded="false" aria-controls="flush-collapseOne-1">
+                        Description
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-1">
+                      <div class="accordion-body">
+                        <ul class="ps-3">
+                          <li>Allows to manage the stock: stock-in, stock-out, stock status by lot or by
+                            article.</li>
+                          <li>Multi-lot inventory management.</li>
+                          <li>Uses barcodes.</li>
+                          <li>Multi-languages.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo-1" aria-expanded="false" aria-controls="flush-collapseTwo-1">
+                        Technologies used
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-1">
+                      <div class="accordion-body">
+                        <ul class="ps-3">
+                          <li><span class="w-ctegory">Python</span> , xhtml2pdf, openpyxl, configparser</li>
+                          <li><span class="w-ctegory">Django</span> , widget_tweaks</li>
+                          <li>
+                            <span class="w-ctegory">HTML</span> ,
+                            <span class="w-ctegory">CSS</span> ,
+                            <span class="w-ctegory">Bootstrap</span>
+                          </li>
+                          <li><span class="w-ctegory">JavaScript</span></li>
+                          <li><span class="w-ctegory">PostgreSQL Database</span></li>
+                          <li><span class="w-ctegory">NGINX</span> (for deploiement)</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- * work 2 : Hangman -->
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-2.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-2.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-10">
+                    <h2 class="w-title"><a href="https://smatimed.pythonanywhere.com/" target="_blank">Hangman Game <span class="bi bi-link-45deg text-warning"></span></a></h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Development</span> / <span class="w-date">2023</span>
+                    </div>
+
+                  </div>
+                  <div class="col-sm-2">
+                    <div class="w-like">
+                      <a href="portfolio-details-work2.html" class="bouton-cercle d-flex align-items-center justify-content-center"><span class="bi bi-plus-lg" style="font-size: 2rem;"></span></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12">
+
+                    <div class="accordion accordion-flush" id="accordionFlush-2">
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-2" aria-expanded="false" aria-controls="flush-collapseOne-2">
+                            Description
+                          </button>
+                        </h2>
+                        <div id="flush-collapseOne-2" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-2">
+                          <div class="accordion-body">
+                            <ul class="ps-3">
+                              <li>The famous hangman game where you have to find the hidden word.</li>
+                              <li>Dynamic: the list of words is not fixed but it is in a database.</li>
+                              <li>Multi-levels: easy, medium, hard.</li>
+                              <li>Multi-languages.</li>
+                            </ul>
+
+                            <div>
+                              <hr>
+                              <p class="mb-0 mt-1 text-danger">Link to play the game online:</p>
+                              <p><span class="bi bi-arrow-right-square-fill text-danger" style="font-size: large"></span> <a href="https://smatimed.pythonanywhere.com/" target="_blank"><b>smatimed.pythonanywhere.com <span class="bi bi-link-45deg text-warning"></span></b></a></p>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo-2" aria-expanded="false" aria-controls="flush-collapseTwo-2">
+                            Technologies used
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-2">
+                          <div class="accordion-body">
+                            <ul class="ps-3">
+                              <li><span class="w-ctegory">Python</span></li>
+                              <li><span class="w-ctegory">Django</span> , <b>rest_framework</b> (to create <b>REST-APIs</b>)</li>
+                              <li><span class="w-ctegory">Flask</span> , Jinja2</li>
+                              <li>
+                                <span class="w-ctegory">HTML</span> ,
+                                <span class="w-ctegory">CSS</span> ,
+                                <span class="w-ctegory">Bootstrap</span>
+                              </li>
+                              <li><span class="w-ctegory">JavaScript</span> , Fetch API</li>
+                              <li><span class="w-ctegory">SQLite3 Database</span></li>
+                              <li>Deployed in <span class="w-ctegory">https://www.pythonanywhere.com/</span></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- * work 3 : Mouvements SDSI -->
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-3.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-3.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-10">
+                    <h2 class="w-title">Staff Movements Monitoring</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Development</span> / <span class="w-date">2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-2">
+                    <div class="w-like">
+                      <a href="portfolio-details-work3.html" class="bouton-cercle d-flex align-items-center justify-content-center"><span class="bi bi-plus-lg" style="font-size: 2rem;"></span></a>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="accordion accordion-flush" id="accordionFlush-3">
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-3" aria-expanded="false" aria-controls="flush-collapseOne-3">
+                        Description
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne-3" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-3">
+                      <div class="accordion-body">
+                        <p>Allows the monitoring of staff movements: Annual leave, special leave, exit
+                          vouchers, sick leave, recoveries.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo-3" aria-expanded="false" aria-controls="flush-collapseTwo-3">
+                        Technologies used
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo-3" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-3">
+                      <div class="accordion-body">
+                        <ul class="ps-3">
+                          <li><span class="w-ctegory">Python</span> , xhtml2pdf, openpyxl</li>
+                          <li><span class="w-ctegory">Django</span>, <b>rest_framework</b> (to create <b>REST-APIs</b>) , widget_tweaks</li>
+                          <li>
+                            <span class="w-ctegory">HTML</span> ,
+                            <span class="w-ctegory">CSS</span> ,
+                            <span class="w-ctegory">Bootstrap</span>
+                          </li>
+                          <li><span class="w-ctegory">JavaScript</span> , Fetch API</li>
+                          <li><span class="w-ctegory">MariaDB Database</span></li>
+                          <li><span class="w-ctegory">NGINX</span> (for deploiement)</li>
+                        </ul>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <!-- * work 4 : PARTNERS MAILING -->
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-4.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-4.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-10">
+                    <h2 class="w-title">Partners Mailing</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Desktop Development</span> / <span class="w-date">2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-2">
+                    <div class="w-like">
+                      <a href="portfolio-details-work4.html" class="bouton-cercle d-flex align-items-center justify-content-center"><span class="bi bi-plus-lg" style="font-size: 2rem;"></span></a>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="accordion accordion-flush" id="accordionFlush-4">
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-4" aria-expanded="false" aria-controls="flush-collapseOne-4">
+                        Description
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne-4" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-4">
+                      <div class="accordion-body">
+                        <p>This program, launched automatically daily at night, extracts the transfer information of the partners sums of money from an Oracle database to generate them in PDF format and sends them as attachments in partner emails.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo-4" aria-expanded="false" aria-controls="flush-collapseTwo-4">
+                        Technologies used
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo-4" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-4">
+                      <div class="accordion-body">
+                        <ul class="ps-3">
+                          <li><span class="w-ctegory">Python</span> , cryptography , cx_Oracle , configparser , fpdf , arabic_reshaper , qrcode , cx-freeze , smtplib , ssl</li>
+                          <li><span class="w-ctegory">Oracle Database</span></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- * work 5 : MISSION MANAGEMENT -->
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-5.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-5.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-10">
+                    <h2 class="w-title">Mission Management</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Desktop Development</span> / <span class="w-date">2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-2">
+                    <div class="w-like">
+                      <a href="portfolio-details-work5.html" class="bouton-cercle d-flex align-items-center justify-content-center"><span class="bi bi-plus-lg" style="font-size: 2rem;"></span></a>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="accordion accordion-flush" id="accordionFlush-5">
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-5" aria-expanded="false" aria-controls="flush-collapseOne-5">
+                        Description
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne-5" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-5">
+                      <div class="accordion-body">
+                        <p>Allows the management of work missions: edition of mission orders, calculation of
+                          mission expenses (after the end of mission), statistics.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo-5" aria-expanded="false" aria-controls="flush-collapseTwo-5">
+                        Technologies used
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo-5" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-5">
+                      <div class="accordion-body">
+                        <ul class="ps-3">
+                          <li><span class="w-ctegory">Delphi</span> (Oriented Object Pascal)</li>
+                          <li><span class="w-ctegory">DBF Database</span></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- * work 6 : CONNECTION MONITORING (SurveillerConnexions) -->
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-6.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-6.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-10">
+                    <h2 class="w-title">Connection Monitoring</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Desktop Development</span> / <span class="w-date">2017</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-2">
+                    <div class="w-like">
+                      <a href="portfolio-details-work6.html" class="bouton-cercle d-flex align-items-center justify-content-center"><span class="bi bi-plus-lg" style="font-size: 2rem;"></span></a>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="accordion accordion-flush" id="accordionFlush-6">
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-6" aria-expanded="false" aria-controls="flush-collapseOne-6">
+                        Description
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne-6" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-6">
+                      <div class="accordion-body">
+                        <ul class="ps-3">
+                          <li>Enables automatic monitoring (according to a frequency set by the user) of
+                            network connections (between a central structure with its distributed structures) with a view to detecting failures in order to intervene quickly.</li>
+                          <li>In addition, it allows to measure response times.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo-6" aria-expanded="false" aria-controls="flush-collapseTwo-6">
+                        Technologies used
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo-6" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-6">
+                      <div class="accordion-body">
+                        <ul class="ps-3">
+                          <li><span class="w-ctegory">Delphi</span> (Oriented Object Pascal) , Windows socket</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- * work 7 : DBF READER -->
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-7.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-7.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-10">
+                    <h2 class="w-title">DBF Reader</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Desktop Development</span> / <span class="w-date">2019</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-2">
+                    <div class="w-like">
+                      <!-- <a href="portfolio-details.html" class="bouton-cercle d-flex align-items-center justify-content-center"><span class="bi bi-plus-lg" style="font-size: 2rem;"></span></a> -->
+
+                      <!-- <a href="portfolio-details.html"> <span class="bi bi-plus-circle bouton-cercle"></span></a> -->
+                      <!-- <a href="portfolio-details.html" role="button" class="boutoncercle"><span class="bi bi-plus-circle"></span></a> -->
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="accordion accordion-flush" id="accordionFlush-7">
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-7" aria-expanded="false" aria-controls="flush-collapseOne-7">
+                        Description
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne-7" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-7">
+                      <div class="accordion-body">
+                        <ul class="ps-3">
+                          <li>Allows to read and modify DBF files in a simple way.</li>
+                          <li>Multi-documents.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo-7" aria-expanded="false" aria-controls="flush-collapseTwo-7">
+                        Technologies used
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo-7" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-7">
+                      <div class="accordion-body">
+                        <ul class="ps-3">
+                          <li><span class="w-ctegory">Delphi</span> (Oriented Object Pascal)</li>
+                          <li><span class="w-ctegory">DBF Database</span></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- * work 8 : MESSAGING -->
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-8.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-8.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-10">
+                    <h2 class="w-title">Messaging</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Desktop Development</span> / <span class="w-date">2003</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-2">
+                    <div class="w-like">
+                      <!-- <a href="portfolio-details.html"> <span class="bi bi-plus-circle bouton-cercle"></span></a> -->
+
+                      <!-- <a href="portfolio-details.html" style="float: right; border-radius: 50%;" class="btn btn-outline-primary btn-rounded m-0 p-0 border-0" role="button"><span class="bi bi-plus-circle bouton-cercle" style="font-size: 2.5rem;"></span></a> -->
+                      <!-- <p class="m-0 p-0">View details</p> -->
+                      <!-- <span class="bi bi-plus-lg" style="font-size: large"></span> -->
+
+                      <!-- <a href="portfolio-details.html" class="bouton-cercle d-flex align-items-center justify-content-center"><span class="bi bi-plus-lg" style="font-size: 2rem;"></span></a> -->
+
+                      <!-- <a href="portfolio-details.html" class="boutoncercle d-flex align-items-center justify-content-center"><i class="bi bi-plus-circle" style="font-size: 2.5rem;"></i></a> -->
+
+
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="accordion accordion-flush" id="accordionFlush-8">
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-8" aria-expanded="false" aria-controls="flush-collapseOne-8">
+                        Description
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne-8" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-8">
+                      <div class="accordion-body">
+                        <p>Allows to send and receive messages in a local network in a simple way.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo-8" aria-expanded="false" aria-controls="flush-collapseTwo-8">
+                        Technologies used
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo-8" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-8">
+                      <div class="accordion-body">
+                        <ul class="ps-3">
+                          <li><span class="w-ctegory">Delphi</span> (Oriented Object Pascal) , Windows socket</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- * OTHER APPLICATIONS -->
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Other Projects</h2>
+                    <div class="w-more">
+                      <p>Here are some other projects (important ones only) I've realized in the past which shows the diversity of my experience:</p>
+                    </div>
+
+                    <div class="accordion accordion-flush" id="accordionFlush-9">
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-9" aria-expanded="false" aria-controls="flush-collapseOne-9">
+                            <span class="text-primary fw-bold">COMMERCIAL MANAGEMENT PACK</span>
+                          </button>
+                        </h2>
+                        <div id="flush-collapseOne-9" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-9">
+                          <div class="accordion-body">
+                            <p>Containing several modules, namely: <b>stock management</b>, <b>invoicing</b>, <b>customer follow-up</b>, <b>supplier follow-up</b>, <b>bank account follow-up</b>, etc...</p>
+                            </li>
+                            <p class="mb-2">Language used: <b>Visual FoxPro</b></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo-9" aria-expanded="false" aria-controls="flush-collapseTwo-9">
+                            <span class="text-primary fw-bold">PAYROLL MANAGEMENT</span>
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwo-9" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-9">
+                          <div class="accordion-body">
+                            <p>Application that calculates the payroll of a company's staff.</p>
+                            <p class="mb-2">Language used: <b>Visual FoxPro</b></p>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree-9" aria-expanded="false" aria-controls="flush-collapseThree-9">
+                              <span class="text-primary fw-bold">MANAGEMENT OF A PHARMACY</span>
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree-9" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-9">
+                            <div class="accordion-body">
+                              <p>It is like the application COMMERCIAL MANAGEMENT but especially for a pharmacy (dealing the particularity of medecines).</p>
+                              <p class="mb-2">Language used: <b>Clipper</b></p>
+                            </div>
+                          </div>
+
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour-9" aria-expanded="false" aria-controls="flush-collapseFour-9">
+                                <span class="text-primary fw-bold">MANAGEMENT OF A MEDICAL OFFICE</span>
+                              </button>
+                            </h2>
+                            <div id="flush-collapseFour-9" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-9">
+                              <div class="accordion-body">
+                                <p>It allows a doctor to follow his patients, manage appointments, write prescriptions, etc...</p>
+                                <p class="mb-2">Language used: <b>Delphi</b></p>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive-9" aria-expanded="false" aria-controls="flush-collapseFive-9">
+                                  <span class="text-primary fw-bold">PERSONNEL MANAGEMENT</span>
+                                </button>
+                              </h2>
+                              <div id="flush-collapseFive-9" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-9">
+                                <div class="accordion-body">
+                                  <p>It allows to monitor personnel files and careers.</p>
+                                  <p class="mb-2">Language used: <b>Clipper</b></p>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+    </section><!-- End Portfolio Section -->
+
+
+    <!-- ======= Testimonials Section ======= -->
+    <!-- <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)"> -->
+    <!-- <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/hero-bg.png)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+
+            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="testimonial-box">
+                    <div class="author-test">
+                      <img src="assets/img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
+                      <span class="author">Xavi Alonso</span>
+                    </div>
+                    <div class="content-test">
+                      <p class="description lead">
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                      </p>
+                    </div>
+                  </div>
+                </div>< !-- End testimonial item -- >
+
+                <div class="swiper-slide">
+                  <div class="testimonial-box">
+                    <div class="author-test">
+                      <img src="assets/img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
+                      <span class="author">Marta Socrate</span>
+                    </div>
+                    <div class="content-test">
+                      <p class="description lead">
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                      </p>
+                    </div>
+                  </div>
+                </div>< !-- End testimonial item -- >
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+            < !-- <div id="testimonial-mf" class="owl-carousel owl-theme" >
+          
+        </div> -- >
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- End Testimonials Section -->
+
+
+    <!-- ======= Blog Section ======= -->
+    <!-- <section id="blog" class="blog-mf sect-pt4 route">
+      <div class="conta iner">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Blog
+              </h3>
+              <p class="subtitle-a">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog-single.html"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Travel</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                  a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog-single.html"><img src="assets/img/post-2.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                  a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog-single.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                  a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- End Blog Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <!-- <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)"> -->
+    <!-- <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/hero-bg.png)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        Send Message Us
+                      </h5>
+                    </div>
+                    <div>
+                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12 text-center my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                          </div>
+                          <div class="col-md-12 text-center">
+                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                      <h5 class="title-left">
+                        Get in Touch
+                      </h5>
+                    </div>
+                    <div class="more-info">
+                      <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
+                        expedita aperiam aliquid at.
+                        Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
+                        mollitia inventore?
+                      </p>
+                      <ul class="list-ico">
+                        <li><span class="bi bi-geo-alt"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
+                        <li><span class="bi bi-phone"></span> (617) 557-0089</li>
+                        <li><span class="bi bi-envelope"></span> contact@example.com</li>
+                      </ul>
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li><a href=""><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
+                        <li><a href=""><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
+                        <li><a href=""><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
+                        <li><a href=""><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+
+  <!-- * ======= Footer ======= -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="copyright-box">
+            <!-- <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+            <div class="credits"> -->
+            <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+            -->
+            <small>Designed by <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a> and customized by <a href="#">Mohamed Smati</a> (2023)</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
