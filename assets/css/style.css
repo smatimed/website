@@ -1549,3 +1549,27 @@ background-color: #ebe8e8;
   color: #0078ff;
   margin-block: 0;
 }
+/* 
+@media (max-width: 480px)) {
+  #hero {
+    background-position: 200px center;
+  }
+} */
+
+.skill-legend {
+  height: 0.7rem;
+  width: 20px;
+  background-color: #0078ff;
+  display: inline-block;
+}
+
+.skill-legend2 {
+  height: 0.7rem;
+  width: 20px;
+  background-color: #0f4583;
+  display: inline-block;
+}
+
+.my-text {
+  font-size: large;
+}
