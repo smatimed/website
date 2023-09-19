@@ -1576,3 +1576,7 @@ background-color: #ebe8e8;
 .my-text-smaller {
   font-size: medium;
 }
+
+.bi-myicon {
+  font-size: 120%;
+}
