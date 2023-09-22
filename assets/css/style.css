@@ -1607,7 +1607,6 @@ background-color: #ebe8e8;
 
  
 
-
 @media (prefers-reduced-motion: no-preference) {
     .icon-effect-small {
       animation: icon-effect-animation-small infinite 3s linear;
@@ -1646,9 +1645,9 @@ background-color: #ebe8e8;
     }
   }
 
-.nav-link .scrollto::active  {
+/* .nav-link .scrollto::active  {
   color: yellow;
-}
+} */
 
 
 #img-me {
