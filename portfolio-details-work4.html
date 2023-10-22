@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Partners mailing - Portfolio Details</title>
+  <title>Staff Movements Monitoring - Portfolio Details</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -72,7 +72,7 @@
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
-          <h2 class="hero-title mb-4">Partners mailing</h2>
+          <h2 class="hero-title mb-4">Staff Movements Monitoring</h2>
           <!-- <h4 class="text-white">(Portfolio Details)</h4> -->
           <!-- <ol class="breadcrumb d-flex justify-content-center">
             <li class="breadcrumb-item">
@@ -99,7 +99,7 @@
             <!-- <div class="portfolio-info"> -->
             <h3>Project information</h3>
             <ul>
-              <li><strong>Category</strong>: Desktop Development</li>
+              <li><strong>Category</strong>: Web Development</li>
               <li><strong>Project date</strong>: 2022</li>
               <!-- <li><strong>Project URL</strong>: <a href="https://smatimed.pythonanywhere.com">smatimed.pythonanywhere.com <span class="bi bi-link-45deg text-warning"></span></a></li> -->
             </ul>
@@ -109,9 +109,9 @@
           <div class="col-lg-4 portfolio-info">
             <!-- <div class="portfolio-description"> -->
             <h3>Description</h3>
-            <p>This program, launched automatically daily at night, extracts the transfer information of the partners sums of money from an Oracle database to generate them in PDF format and sends them as attachments in partner emails.</p>
-            <!-- <p></p>
-            <a href="#app-code-samples" class="w-ctegory">Go to application code samples <span class="bi bi-chevron-double-down text-warning"></span></a> -->
+            <p>Allows the monitoring of staff movements: Annual leave, special leave, exit vouchers, sick leave, recoveries.</p>
+            <p></p>
+            <a href="#app-code-samples" class="w-ctegory">Go to application code samples <span class="bi bi-chevron-double-down text-warning"></span></a>
             <!-- </div> -->
           </div>
 
@@ -119,8 +119,16 @@
             <!-- <div class="portfolio-description"> -->
             <h3>Technologies used</h3>
             <ul class="ps-3" style="list-style-type: disc;">
-              <li><span class="w-ctegory">Python</span> , <b>cryptography</b>, <b>cx_Oracle</b>, <b>configparser</b>, <b>fpdf</b>, <b>arabic_reshaper</b>, <b>qrcode</b>, <b>cx-freeze</b>, smtplib, ssl</li>
-              <li><span class="w-ctegory">Oracle Database</span></li>
+              <li><span class="w-ctegory">Python</span> , xhtml2pdf, openpyxl</li>
+              <li><span class="w-ctegory">Django</span> , <span class="w-ctegory">rest_framework</span> to create <b>RESTful-APIs</b> (Web APIs) , widget_tweaks</li>
+              <li>
+                <span class="w-ctegory">HTML</span> ,
+                <span class="w-ctegory">CSS</span> ,
+                <span class="w-ctegory">Bootstrap</span>
+              </li>
+              <li><span class="w-ctegory">JavaScript</span> , Fetch API</li>
+              <li><span class="w-ctegory">MariaDB Database</span></li>
+              <li><span class="w-ctegory">NGINX</span> (for deploiement)</li>
             </ul>
 
             <!-- </div> -->
@@ -132,7 +140,168 @@
 
 
         <!-- * ---------------------------------------- SCREENSHOTS -->
-        <!-- no screenshots  -->
+
+        <div class="div-stitre-portfolio-detail">
+          <p class="stitre-portfolio-detail">Application screenshots</p>
+        </div>
+
+        <p></p>
+
+
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 g-3">
+            <div class="col">
+              <a href="assets/img/mvts_sdsi_02.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Menus<br>Multiple screenshots are put in one to show all the menus.">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_02.png" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <p class="my-text">Menus</p>
+              <p class="my-text">Multiple screenshots are put in one to show all the menus.</p>
+            </div>
+          </div>
+        </div>
+
+        <p></p>
+
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 g-3">
+            <div class="col">
+              <a href="assets/img/mvts_sdsi_03.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Add a new exit voucher">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_03.png" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <p class="my-text">Add a new exit voucher</p>
+            </div>
+          </div>
+        </div>
+
+        <p></p>
+
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 g-3">
+            <div class="col">
+              <a href="assets/img/mvts_sdsi_04.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Modify an existing exit voucher">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_04.png" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <p class="my-text">Modify an existing exit voucher</p>
+            </div>
+          </div>
+        </div>
+
+        <p></p>
+
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 g-3">
+            <div class="col">
+              <a href="assets/img/mvts_sdsi_05.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="List of annual leave rigths<br>We can print it (as PDF) or export it to Excel.">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_05.png" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <p class="my-text">List of annual leave rigths</p>
+              <p class="my-text">We can print it (as PDF) or export it to Excel.</p>
+            </div>
+          </div>
+        </div>
+
+        <p></p>
+
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 g-3">
+            <div class="col">
+              <a href="assets/img/mvts_sdsi_06.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Add a new annual leave<br>We use <b>javascript Fetch API</b> (in client side) to get the annual leave rights of the employee using <b>Django RESTful API</b> (in server side).">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_06.png" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <p class="my-text">Add a new annual leave</p>
+              <p class="my-text">We use <b>javascript Fetch API</b> (in client side) to get the annual leave rights of the employee using <b>Django RESTful API</b> (in server side).</p>
+            </div>
+          </div>
+        </div>
+
+        <p></p>
+
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 g-3">
+            <div class="col">
+              <a href="assets/img/mvts_sdsi_07.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Add a new sick leave">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_07.png" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <p class="my-text">Add a new sick leave</p>
+            </div>
+          </div>
+        </div>
+
+        <p></p>
+
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 g-3">
+            <div class="col">
+              <a href="assets/img/mvts_sdsi_08.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Set revovery rights">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_08.png" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <p class="my-text">Set revovery rights</p>
+            </div>
+          </div>
+        </div>
+
+        <p></p>
+
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 g-3">
+            <div class="col">
+              <a href="assets/img/mvts_sdsi_09.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Take a recovery<br>The same thing as for 'annual leave rights', we use <b>javascript Fetch API</b> (in client side) to get the recovery rights of the employee using <b>Django RESTful API</b> (in server side).">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_09.png" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <p class="my-text">Take a recovery</p>
+              <p class="my-text">The same thing as for "annual leave rights", we use <b>javascript Fetch API</b> (in client side) to get the recovery rights of the employee using <b>Django RESTful API</b> (in server side).</p>
+            </div>
+          </div>
+        </div>
+
+        <p></p>
+
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 g-3">
+            <div class="col">
+              <a href="assets/img/mvts_sdsi_10.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Filters for the list of mouvements">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_10.png" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <p class="my-text">Filters for the list of mouvements</p>
+            </div>
+          </div>
+        </div>
+
+        <p></p>
+
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 g-3">
+            <div class="col">
+              <a href="assets/img/mvts_sdsi_11.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Mouvements list">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_11.png" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <p class="my-text">Mouvements list</p>
+            </div>
+          </div>
+        </div>
+
+        <p></p>
+
 
         <!-- * ---------------------------------------- CODE SAMPLES -->
         <div class="div-stitre-portfolio-detail" id="app-code-samples">
@@ -144,25 +313,15 @@
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2 g-3">
             <div class="col">
-              <a href="assets/img/PartnersMailing_01_modules.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Modules used (not part of Python): <b>cryptography</b> , <b>cx_Oracle</b> , <b>fpdf</b> , <b>arabic_reshaper</b> , <b>qrcode</b> , <b>configparser</b> , <b>cx-freeze</b><br>Python modules used: <b>smtplib</b> , <b>ssl</b>">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/PartnersMailing_01_modules.png" alt="">
+              <a href="assets/img/mvts_sdsi_00_modules.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Modules used (not part of Python): <b>xhtml2pdf</b> , <br><b>openpyxl</b>">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_00_modules.png" alt="">
               </a>
             </div>
             <div class="col">
-              <p class="my-text mb-1">Modules used (not part of Python):</p>
+              <p class="my-text">Modules used (not part of Python):</p>
               <ul>
-                <li class="my-text-smaller"><b>cryptography</b>: Encrypt and decrypt sensitive data, like passwords</li>
-                <li class="my-text-smaller"><b>cx_Oracle</b>: Connect to ORACLE database</li>
-                <li class="my-text-smaller"><b>fpdf</b>: Generate PDF files</li>
-                <li class="my-text-smaller"><b>arabic_reshaper</b>: Use arabic in PDF</li>
-                <li class="my-text-smaller"><b>qrcode</b>: Generate QR codes</li>
-                <li class="my-text-smaller"><b>configparser</b>: Create configuration file (ini file)</li>
-                <li class="my-text-smaller"><b>cx-freeze</b>: Generate exe file</li>
-              </ul>
-              <p class="my-text mb-1">Python modules used:</p>
-              <ul>
-                <li class="my-text-smaller"><b>smtplib</b>: Mailing</li>
-                <li class="my-text-smaller"><b>ssl</b>: Use SSL encryption protocol</li>
+                <li class="my-text-smaller"><b>xhtml2pdf</b>: Convert HTML template to PDF</li>
+                <li class="my-text-smaller"><b>openpyxl</b>: Export queryset to Excel (xlsx)</li>
               </ul>
             </div>
           </div>
@@ -173,25 +332,12 @@
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2 g-3">
             <div class="col">
-              <a href="assets/img/PartnersMailing_02-1_oracle.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Database: <b>Oracle</b><br>Initialization">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/PartnersMailing_02-1_oracle.png" alt="">
-              </a>
-
-              <p></p>
-
-              <a href="assets/img/PartnersMailing_02-2_oracle.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Database: <b>Oracle</b><br>Connection">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/PartnersMailing_02-2_oracle.png" alt="">
-              </a>
-
-              <p></p>
-
-              <a href="assets/img/PartnersMailing_02-3_oracle.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Database: <b>Oracle</b><br>Use (SQL request)">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/PartnersMailing_02-3_oracle.png" alt="">
+              <a href="assets/img/mvts_sdsi_01_database.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Database: <b>MariaDB</b>">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_01_database.png" alt="">
               </a>
             </div>
             <div class="col">
-              <p class="my-text">Database: <b>Oracle</b></p>
-              <p class="my-text">Initialization, connection and use (SQL request).</p>
+              <p class="my-text">Database: <b>MariaDB</b></p>
             </div>
           </div>
         </div>
@@ -201,31 +347,12 @@
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2 g-3">
             <div class="col">
-              <a href="assets/img/PartnersMailing_03-1_pdf.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Generation of <b>PDF</b> : Pdf initialization , Arabic reshaping">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/PartnersMailing_03-1_pdf.png" alt="">
-              </a>
-
-              <p></p>
-
-              <a href="assets/img/PartnersMailing_03-2_pdf.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Generation of <b>PDF</b> : Pdf header generation (1 / 2)">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/PartnersMailing_03-2_pdf.png" alt="">
-              </a>
-
-              <p></p>
-
-              <a href="assets/img/PartnersMailing_03-3_pdf.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Generation of <b>PDF</b> : Pdf header generation (2 / 2)">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/PartnersMailing_03-3_pdf.png" alt="">
-              </a>
-
-              <p></p>
-
-              <a href="assets/img/PartnersMailing_03-4_pdf.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Generation of <b>PDF</b> : Pdf footer generation, adding QR code">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/PartnersMailing_03-4_pdf.png" alt="">
+              <a href="assets/img/mvts_sdsi_12_CodeExample.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Code sample: <b>Model</b> (django) for a mouvement">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_12_CodeExample.png" alt="">
               </a>
             </div>
             <div class="col">
-              <p class="my-text">Generation of <b>PDF</b></p>
-              <p class="my-text">Functions in order: Pdf initialization, Arabic reshaping, Pdf header generation, Pdf footer generation, adding QR code.</p>
+              <p class="my-text">Code sample: <b>Model</b> (django) for a mouvement</p>
             </div>
           </div>
         </div>
@@ -235,12 +362,12 @@
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2 g-3">
             <div class="col">
-              <a href="assets/img/PartnersMailing_03-5_pdf.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Main loop for generating Pdf content, with calling of all functions.">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/PartnersMailing_03-5_pdf.png" alt="">
+              <a href="assets/img/mvts_sdsi_13_CodeExample.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Code sample: <b>Form</b> (django) for a mouvement of exit voucher">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_13_CodeExample.png" alt="">
               </a>
             </div>
             <div class="col">
-              <p class="my-text">Main loop for generating Pdf content, with calling of all functions.</p>
+              <p class="my-text">Code sample: <b>Form</b> (django) for a mouvement of exit voucher</p>
             </div>
           </div>
         </div>
@@ -250,59 +377,107 @@
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2 g-3">
             <div class="col">
-              <a href="assets/img/PartnersMailing_04-1_mailing.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<b>SendEmailInternet</b> function to send email with attachement the PDF generated.<br>It can use the servers: Yahoo, Gmail and Hotmail. &nbsp;&nbsp;&nbsp; (1 / 5)">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/PartnersMailing_04-1_mailing.png" alt="">
+              <a href="assets/img/mvts_sdsi_14_CodeExample.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Code samples: <b>View</b> (django) for inserting a mouvement of annual leave">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_14_CodeExample.png" alt="">
               </a>
-
-              <p></p>
-
-              <a href="assets/img/PartnersMailing_04-2_mailing.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<b>SendEmailInternet</b> function to send email with attachement the PDF generated.<br>It can use the servers: Yahoo, Gmail and Hotmail. &nbsp;&nbsp;&nbsp; (2 / 5)">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/PartnersMailing_04-2_mailing.png" alt="">
-              </a>
-
-              <p></p>
-
-              <a href="assets/img/PartnersMailing_04-3_mailing.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<b>SendEmailInternet</b> function to send email with attachement the PDF generated.<br>It can use the servers: Yahoo, Gmail and Hotmail. &nbsp;&nbsp;&nbsp; (3 / 5)">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/PartnersMailing_04-3_mailing.png" alt="">
-              </a>
-
-              <p></p>
-
-              <a href="assets/img/PartnersMailing_04-4_mailing.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<b>SendEmailInternet</b> function to send email with attachement the PDF generated.<br>It can use the servers: Yahoo, Gmail and Hotmail. &nbsp;&nbsp;&nbsp; (4 / 5)">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/PartnersMailing_04-4_mailing.png" alt="">
-              </a>
-
-              <p></p>
-
-              <a href="assets/img/PartnersMailing_04-5_mailing.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<b>SendEmailInternet</b> function to send email with attachement the PDF generated.<br>It can use the servers: Yahoo, Gmail and Hotmail. &nbsp;&nbsp;&nbsp; (5 / 5)">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/PartnersMailing_04-5_mailing.png" alt="">
-              </a>
-
             </div>
             <div class="col">
-              <p class="my-text"><b>SendEmailInternet</b> function to send email with attachement the PDF generated.</p>
-              <p class="my-text">It can use the servers: Yahoo, Gmail and Hotmail.</p>
+              <p class="my-text">Code samples: <b>View</b> (django) for inserting a mouvement of annual leave</p>
             </div>
           </div>
         </div>
-
 
         <p></p>
 
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2 g-3">
             <div class="col">
-              <a href="assets/img/PartnersMailing_05.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Example of PDF generated.">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/PartnersMailing_05.png" alt="">
+              <a href="assets/img/mvts_sdsi_15-1_CodeExample.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Code sample: <b>Template</b> (django, widget_tweaks module, HTML, CSS, Bootstrap, JavaScript) for inserting a mouvement of annual leave<br>1 / 2">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_15-1_CodeExample.png" alt="">
+              </a>
+
+              <p></p>
+
+              <a href="assets/img/mvts_sdsi_15-2_CodeExample.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Code sample: <b>Template</b> (django, widget_tweaks module, HTML, CSS, Bootstrap, JavaScript) for inserting a mouvement of annual leave<br>2 / 2">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_15-2_CodeExample.png" alt="">
               </a>
             </div>
             <div class="col">
-              <p class="my-text">Example of PDF generated.</p>
+              <p class="my-text">Code sample: <b>Template</b> (django, widget_tweaks module, HTML, CSS, Bootstrap, JavaScript) for inserting a mouvement of annual leave</p>
             </div>
           </div>
         </div>
 
         <p></p>
+
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 g-3">
+            <div class="col">
+              <a href="assets/img/mvts_sdsi_15-3_CodeExample.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<b>Fetch API</b> (javascript) to use RESTful APIs (Django)<br>As said before, we use <b>javascript Fetch API</b> (in client side) to get the annual leave rights of the employee using <b>Django RESTful API</b> (in server side).<br>1 / 2">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_15-3_CodeExample.png" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <p class="my-text"><b>Fetch API</b> (javascript) to use RESTful APIs (Django)</p>
+              <p class="my-text">As said before, we use <b>javascript Fetch API</b> (in client side) to get the annual leave rights of the employee using <b>Django RESTful API</b> (in server side).</p>
+            </div>
+          </div>
+        </div>
+
+        <p></p>
+
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 g-3">
+            <div class="col">
+              <a href="assets/img/mvts_sdsi_15-4_CodeExample.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<b>Fetch API</b> (javascript) to use RESTful APIs (Django)<br>As said before, we use <b>javascript Fetch API</b> (in client side) to get the annual leave rights of the employee using <b>Django RESTful API</b> (in server side).<br>2 / 2">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_15-4_CodeExample.png" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <p class="my-text"></p>
+            </div>
+          </div>
+        </div>
+
+        <p></p>
+
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 g-3">
+            <div class="col">
+              <a href="assets/img/mvts_sdsi_16_CodeExample.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Code sample: <b>Serializer</b> and <b>View</b> to create a <b>RESTful API</b> to give number of days remaining for the annual leave.">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_16_CodeExample.png" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <p class="my-text">Code sample: <b>Serializer</b> and <b>View</b> to create a <b>RESTful API</b> to give number of days remaining for the annual leave.</p>
+            </div>
+          </div>
+        </div>
+
+        <p></p>
+
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 g-3">
+            <div class="col">
+              <a href="assets/img/mvts_sdsi_17-1_CodeExample.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Code sample: <b>NGINX</b> configuration for deploiement<br>1 / 2">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_17-1_CodeExample.png" alt="">
+              </a>
+
+              <p></p>
+
+              <a href="assets/img/mvts_sdsi_17-2_CodeExample.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Code sample: <b>NGINX</b> configuration for deploiement<br>2 / 2">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_17-2_CodeExample.png" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <p class="my-text">Code sample: <b>NGINX</b> configuration for deploiement</p>
+            </div>
+          </div>
+        </div>
+
+        <p></p>
+
+
 
 
 

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Staff Movements Monitoring - Portfolio Details</title>
+  <title>SelectFromDoc - Portfolio Details</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -72,7 +72,7 @@
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
-          <h2 class="hero-title mb-4">Staff Movements Monitoring</h2>
+          <h2 class="hero-title mb-4">SelectFromDoc</h2>
           <!-- <h4 class="text-white">(Portfolio Details)</h4> -->
           <!-- <ol class="breadcrumb d-flex justify-content-center">
             <li class="breadcrumb-item">
@@ -99,9 +99,9 @@
             <!-- <div class="portfolio-info"> -->
             <h3>Project information</h3>
             <ul>
-              <li><strong>Category</strong>: Web Development</li>
-              <li><strong>Project date</strong>: 2022</li>
-              <!-- <li><strong>Project URL</strong>: <a href="https://smatimed.pythonanywhere.com">smatimed.pythonanywhere.com <span class="bi bi-link-45deg text-warning"></span></a></li> -->
+              <li><strong>Category</strong>: Desktop Development</li>
+              <li><strong>Project date</strong>: 2023</li>
+              <li><strong>Project URL in GitHub</strong>: <a href="https://github.com/smatimed/SelectFromDoc.git">SelectFromDoc <label class="icon-effect-small"><span class="bi bi-link-45deg text-warning"></span></label></a></li>
             </ul>
             <!-- </div> -->
           </div>
@@ -109,9 +109,14 @@
           <div class="col-lg-4 portfolio-info">
             <!-- <div class="portfolio-description"> -->
             <h3>Description</h3>
-            <p>Allows the monitoring of staff movements: Annual leave, special leave, exit vouchers, sick leave, recoveries.</p>
-            <p></p>
-            <a href="#app-code-samples" class="w-ctegory">Go to application code samples <span class="bi bi-chevron-double-down text-warning"></span></a>
+            <ul class="ps-3" style="list-style-type: square;">
+              <li>Allows to select data from documents or clipboard using SQL language.</li>
+              <li>Documents types supported: <b>Excel</b>, <b>CSV</b>, <b>JSON</b>, <b>Text</b>, <b>XML</b></li>
+              <li>With the possibility to visualize data in charts.</li>
+              <li>And to export data to: CSV, Excel, JSON, Html, Text, XML.</li>
+              <p></p>
+              <a href="#app-code-samples" class="w-ctegory">Go to application code samples <span class="bi bi-chevron-double-down text-warning"></span></a>
+            </ul>
             <!-- </div> -->
           </div>
 
@@ -119,25 +124,15 @@
             <!-- <div class="portfolio-description"> -->
             <h3>Technologies used</h3>
             <ul class="ps-3" style="list-style-type: disc;">
-              <li><span class="w-ctegory">Python</span> , xhtml2pdf, openpyxl</li>
-              <li><span class="w-ctegory">Django</span> , <span class="w-ctegory">rest_framework</span> to create <b>RESTful-APIs</b> (Web APIs) , widget_tweaks</li>
-              <li>
-                <span class="w-ctegory">HTML</span> ,
-                <span class="w-ctegory">CSS</span> ,
-                <span class="w-ctegory">Bootstrap</span>
-              </li>
-              <li><span class="w-ctegory">JavaScript</span> , Fetch API</li>
-              <li><span class="w-ctegory">MariaDB Database</span></li>
-              <li><span class="w-ctegory">NGINX</span> (for deploiement)</li>
+              <li><span class="w-ctegory">Python</span>, openpyxl, xlrd, lxml, tkinter, configparser, argparse</li>
+              <li><span class="w-ctegory">Pandas</span>, pandasql, <b>matplotlib</b>, numpy</li>
             </ul>
-
             <!-- </div> -->
           </div>
 
         </div>
 
         <p></p>
-
 
         <!-- * ---------------------------------------- SCREENSHOTS -->
 
@@ -151,13 +146,26 @@
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2 g-3">
             <div class="col">
-              <a href="assets/img/mvts_sdsi_02.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Menus<br>Multiple screenshots are put in one to show all the menus.">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_02.png" alt="">
+              <a href="assets/img/SelectFromDoc_01.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Main screen<br><ul><li>select a doc</li><li>write a query and execute it</li><li>Export the result</li><li>Visualize charts.</li></ul>">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/SelectFromDoc_01.png" alt="">
               </a>
             </div>
             <div class="col">
-              <p class="my-text">Menus</p>
-              <p class="my-text">Multiple screenshots are put in one to show all the menus.</p>
+              <p class="my-text">Main screen</p>
+              <ul>
+                <li class="my-text">select a document (Excel, CSV, JSON, Fixed-Width Text or XML)</li>
+                <li class="my-text">or copy data to clipboard (must be organized in rows and columns)</li>
+                <li class="my-text">write a SELECT query ('<b>from doc</b>' is mandatory) or open an existing one</li>
+                <li class="my-text">"Execute" the query</li>
+                <li class="my-text">to save the result, "Export" it to a choosen format: CSV, Excel, JSON, Html, Text or XML</li>
+                <li class="my-text">to visualize a chart from data, display the "chart toolbar" and give:</li>
+                <ul style="list-style-type: disc;">
+                  <li class="my-text">Type of the chart: Area, Bar, Barh, Line, Pie, Scatter</li>
+                  <li class="my-text">x-axis column and y-axis column(s)</li>
+                  <li class="my-text">Title, x-label, y-label, and Legend</li>
+                </ul>
+                <li class="my-text">to get help about SQlite select, click on the button "SQL help".</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -167,12 +175,12 @@
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2 g-3">
             <div class="col">
-              <a href="assets/img/mvts_sdsi_03.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Add a new exit voucher">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_03.png" alt="">
+              <a href="assets/img/SelectFromDoc_02.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Bar chart">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/SelectFromDoc_02.png" alt="">
               </a>
             </div>
             <div class="col">
-              <p class="my-text">Add a new exit voucher</p>
+              <p class="my-text">Bar chart</p>
             </div>
           </div>
         </div>
@@ -182,12 +190,12 @@
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2 g-3">
             <div class="col">
-              <a href="assets/img/mvts_sdsi_04.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Modify an existing exit voucher">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_04.png" alt="">
+              <a href="assets/img/SelectFromDoc_03.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Horizontal bar chart">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/SelectFromDoc_03.png" alt="">
               </a>
             </div>
             <div class="col">
-              <p class="my-text">Modify an existing exit voucher</p>
+              <p class="my-text">Horizontal bar chart</p>
             </div>
           </div>
         </div>
@@ -197,13 +205,12 @@
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2 g-3">
             <div class="col">
-              <a href="assets/img/mvts_sdsi_05.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="List of annual leave rigths<br>We can print it (as PDF) or export it to Excel.">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_05.png" alt="">
+              <a href="assets/img/SelectFromDoc_04.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Area chart">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/SelectFromDoc_04.png" alt="">
               </a>
             </div>
             <div class="col">
-              <p class="my-text">List of annual leave rigths</p>
-              <p class="my-text">We can print it (as PDF) or export it to Excel.</p>
+              <p class="my-text">Area chart</p>
             </div>
           </div>
         </div>
@@ -213,13 +220,12 @@
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2 g-3">
             <div class="col">
-              <a href="assets/img/mvts_sdsi_06.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Add a new annual leave<br>We use <b>javascript Fetch API</b> (in client side) to get the annual leave rights of the employee using <b>Django RESTful API</b> (in server side).">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_06.png" alt="">
+              <a href="assets/img/SelectFromDoc_05.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Line chart">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/SelectFromDoc_05.png" alt="">
               </a>
             </div>
             <div class="col">
-              <p class="my-text">Add a new annual leave</p>
-              <p class="my-text">We use <b>javascript Fetch API</b> (in client side) to get the annual leave rights of the employee using <b>Django RESTful API</b> (in server side).</p>
+              <p class="my-text">Line chart</p>
             </div>
           </div>
         </div>
@@ -229,12 +235,12 @@
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2 g-3">
             <div class="col">
-              <a href="assets/img/mvts_sdsi_07.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Add a new sick leave">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_07.png" alt="">
+              <a href="assets/img/SelectFromDoc_06.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Pie chart">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/SelectFromDoc_06.png" alt="">
               </a>
             </div>
             <div class="col">
-              <p class="my-text">Add a new sick leave</p>
+              <p class="my-text">Pie chart</p>
             </div>
           </div>
         </div>
@@ -244,58 +250,12 @@
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2 g-3">
             <div class="col">
-              <a href="assets/img/mvts_sdsi_08.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Set revovery rights">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_08.png" alt="">
+              <a href="assets/img/SelectFromDoc_07.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Scatter chart">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/SelectFromDoc_07.png" alt="">
               </a>
             </div>
             <div class="col">
-              <p class="my-text">Set revovery rights</p>
-            </div>
-          </div>
-        </div>
-
-        <p></p>
-
-        <div class="container">
-          <div class="row row-cols-1 row-cols-md-2 g-3">
-            <div class="col">
-              <a href="assets/img/mvts_sdsi_09.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Take a recovery<br>The same thing as for 'annual leave rights', we use <b>javascript Fetch API</b> (in client side) to get the recovery rights of the employee using <b>Django RESTful API</b> (in server side).">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_09.png" alt="">
-              </a>
-            </div>
-            <div class="col">
-              <p class="my-text">Take a recovery</p>
-              <p class="my-text">The same thing as for "annual leave rights", we use <b>javascript Fetch API</b> (in client side) to get the recovery rights of the employee using <b>Django RESTful API</b> (in server side).</p>
-            </div>
-          </div>
-        </div>
-
-        <p></p>
-
-        <div class="container">
-          <div class="row row-cols-1 row-cols-md-2 g-3">
-            <div class="col">
-              <a href="assets/img/mvts_sdsi_10.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Filters for the list of mouvements">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_10.png" alt="">
-              </a>
-            </div>
-            <div class="col">
-              <p class="my-text">Filters for the list of mouvements</p>
-            </div>
-          </div>
-        </div>
-
-        <p></p>
-
-        <div class="container">
-          <div class="row row-cols-1 row-cols-md-2 g-3">
-            <div class="col">
-              <a href="assets/img/mvts_sdsi_11.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Mouvements list">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_11.png" alt="">
-              </a>
-            </div>
-            <div class="col">
-              <p class="my-text">Mouvements list</p>
+              <p class="my-text">Scatter chart</p>
             </div>
           </div>
         </div>
@@ -313,15 +273,19 @@
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2 g-3">
             <div class="col">
-              <a href="assets/img/mvts_sdsi_00_modules.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Modules used (not part of Python): <b>xhtml2pdf</b> , <br><b>openpyxl</b>">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_00_modules.png" alt="">
+              <a href="assets/img/SelectFromDoc_08.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Modules used (not part of Python): pandas, pandasql, openpyxl, xlrd, matplotlib.pyplot, numpy, tkinter, configparser, argparse">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/SelectFromDoc_08.png" alt="">
               </a>
             </div>
             <div class="col">
               <p class="my-text">Modules used (not part of Python):</p>
               <ul>
-                <li class="my-text-smaller"><b>xhtml2pdf</b>: Convert HTML template to PDF</li>
-                <li class="my-text-smaller"><b>openpyxl</b>: Export queryset to Excel (xlsx)</li>
+                <li class="my-text-smaller">pandas, pandasql</li>
+                <li class="my-text-smaller">openpyxl, xlrd</li>
+                <li class="my-text-smaller">matplotlib.pyplot, numpy</li>
+                <li class="my-text-smaller">tkinter</li>
+                <li class="my-text-smaller">configparser</li>
+                <li class="my-text-smaller">argparse</li>
               </ul>
             </div>
           </div>
@@ -332,12 +296,12 @@
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2 g-3">
             <div class="col">
-              <a href="assets/img/mvts_sdsi_01_database.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Database: <b>MariaDB</b>">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_01_database.png" alt="">
+              <a href="assets/img/SelectFromDoc_09.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Code sample: 'my_read_excel' function replace pandas 'read_excel' which we cannot make it read a text column in Excel which is like a number as text.">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/SelectFromDoc_09.png" alt="">
               </a>
             </div>
             <div class="col">
-              <p class="my-text">Database: <b>MariaDB</b></p>
+              <p class="my-text">Code sample: "my_read_excel" function replaces pandas "read_excel" which we cannot make it read a text column in Excel which is like a number as text.</p>
             </div>
           </div>
         </div>
@@ -347,12 +311,12 @@
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2 g-3">
             <div class="col">
-              <a href="assets/img/mvts_sdsi_12_CodeExample.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Code sample: <b>Model</b> (django) for a mouvement">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_12_CodeExample.png" alt="">
+              <a href="assets/img/SelectFromDoc_10.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Code sample: 'Executer' function runs the query and displays the result.">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/SelectFromDoc_10.png" alt="">
               </a>
             </div>
             <div class="col">
-              <p class="my-text">Code sample: <b>Model</b> (django) for a mouvement</p>
+              <p class="my-text">Code sample: "Executer" function runs the query and displays the result.</p>
             </div>
           </div>
         </div>
@@ -362,125 +326,17 @@
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2 g-3">
             <div class="col">
-              <a href="assets/img/mvts_sdsi_13_CodeExample.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Code sample: <b>Form</b> (django) for a mouvement of exit voucher">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_13_CodeExample.png" alt="">
+              <a href="assets/img/SelectFromDoc_11.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Code sample: 'Exporter' function exports the result to different formats.">
+                <img class="bd-placeholder-img card-img-top" src="assets/img/SelectFromDoc_11.png" alt="">
               </a>
             </div>
             <div class="col">
-              <p class="my-text">Code sample: <b>Form</b> (django) for a mouvement of exit voucher</p>
+              <p class="my-text">Code sample: "Exporter" function exports the result to different formats.</p>
             </div>
           </div>
         </div>
 
         <p></p>
-
-        <div class="container">
-          <div class="row row-cols-1 row-cols-md-2 g-3">
-            <div class="col">
-              <a href="assets/img/mvts_sdsi_14_CodeExample.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Code samples: <b>View</b> (django) for inserting a mouvement of annual leave">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_14_CodeExample.png" alt="">
-              </a>
-            </div>
-            <div class="col">
-              <p class="my-text">Code samples: <b>View</b> (django) for inserting a mouvement of annual leave</p>
-            </div>
-          </div>
-        </div>
-
-        <p></p>
-
-        <div class="container">
-          <div class="row row-cols-1 row-cols-md-2 g-3">
-            <div class="col">
-              <a href="assets/img/mvts_sdsi_15-1_CodeExample.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Code sample: <b>Template</b> (django, widget_tweaks module, HTML, CSS, Bootstrap, JavaScript) for inserting a mouvement of annual leave<br>1 / 2">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_15-1_CodeExample.png" alt="">
-              </a>
-
-              <p></p>
-
-              <a href="assets/img/mvts_sdsi_15-2_CodeExample.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Code sample: <b>Template</b> (django, widget_tweaks module, HTML, CSS, Bootstrap, JavaScript) for inserting a mouvement of annual leave<br>2 / 2">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_15-2_CodeExample.png" alt="">
-              </a>
-            </div>
-            <div class="col">
-              <p class="my-text">Code sample: <b>Template</b> (django, widget_tweaks module, HTML, CSS, Bootstrap, JavaScript) for inserting a mouvement of annual leave</p>
-            </div>
-          </div>
-        </div>
-
-        <p></p>
-
-        <div class="container">
-          <div class="row row-cols-1 row-cols-md-2 g-3">
-            <div class="col">
-              <a href="assets/img/mvts_sdsi_15-3_CodeExample.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<b>Fetch API</b> (javascript) to use RESTful APIs (Django)<br>As said before, we use <b>javascript Fetch API</b> (in client side) to get the annual leave rights of the employee using <b>Django RESTful API</b> (in server side).<br>1 / 2">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_15-3_CodeExample.png" alt="">
-              </a>
-            </div>
-            <div class="col">
-              <p class="my-text"><b>Fetch API</b> (javascript) to use RESTful APIs (Django)</p>
-              <p class="my-text">As said before, we use <b>javascript Fetch API</b> (in client side) to get the annual leave rights of the employee using <b>Django RESTful API</b> (in server side).</p>
-            </div>
-          </div>
-        </div>
-
-        <p></p>
-
-        <div class="container">
-          <div class="row row-cols-1 row-cols-md-2 g-3">
-            <div class="col">
-              <a href="assets/img/mvts_sdsi_15-4_CodeExample.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<b>Fetch API</b> (javascript) to use RESTful APIs (Django)<br>As said before, we use <b>javascript Fetch API</b> (in client side) to get the annual leave rights of the employee using <b>Django RESTful API</b> (in server side).<br>2 / 2">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_15-4_CodeExample.png" alt="">
-              </a>
-            </div>
-            <div class="col">
-              <p class="my-text"></p>
-            </div>
-          </div>
-        </div>
-
-        <p></p>
-
-        <div class="container">
-          <div class="row row-cols-1 row-cols-md-2 g-3">
-            <div class="col">
-              <a href="assets/img/mvts_sdsi_16_CodeExample.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Code sample: <b>Serializer</b> and <b>View</b> to create a <b>RESTful API</b> to give number of days remaining for the annual leave.">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_16_CodeExample.png" alt="">
-              </a>
-            </div>
-            <div class="col">
-              <p class="my-text">Code sample: <b>Serializer</b> and <b>View</b> to create a <b>RESTful API</b> to give number of days remaining for the annual leave.</p>
-            </div>
-          </div>
-        </div>
-
-        <p></p>
-
-        <div class="container">
-          <div class="row row-cols-1 row-cols-md-2 g-3">
-            <div class="col">
-              <a href="assets/img/mvts_sdsi_17-1_CodeExample.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Code sample: <b>NGINX</b> configuration for deploiement<br>1 / 2">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_17-1_CodeExample.png" alt="">
-              </a>
-
-              <p></p>
-
-              <a href="assets/img/mvts_sdsi_17-2_CodeExample.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Code sample: <b>NGINX</b> configuration for deploiement<br>2 / 2">
-                <img class="bd-placeholder-img card-img-top" src="assets/img/mvts_sdsi_17-2_CodeExample.png" alt="">
-              </a>
-            </div>
-            <div class="col">
-              <p class="my-text">Code sample: <b>NGINX</b> configuration for deploiement</p>
-            </div>
-          </div>
-        </div>
-
-        <p></p>
-
-
-
-
-
 
       </div>
     </section><!-- End Portfolio Details Section -->
