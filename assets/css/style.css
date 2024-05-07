@@ -1652,8 +1652,14 @@ background-color: #ebe8e8;
 
 #img-me {
   filter: grayscale(100%);
+  /* * new 07-05-2024 */
+  transition-duration: 0.5s;
 }
 
 #img-me:hover {
   filter: none;
+  /* * new 07-05-2024 */
+  transform: scale(1.5) translate(30px, 30px);
+  z-index: 900;
 }
+
